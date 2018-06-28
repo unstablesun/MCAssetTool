@@ -1,0 +1,17 @@
+ {
+  "MasterAssetBundleManifest": "Core",
+  "version": "0.1",
+  "AssetBundleManifestList": [
+    {
+      "bundlePath": "https://s3.amazonaws.com/master-chef-debug/asset-bundle-zips/",
+      "bundleName": "pantryitems001",
+      "version": "1"
+    },
+    {
+      "bundlePath": "https://s3.amazonaws.com/master-chef-debug/asset-bundle-zips/",
+      "bundleName": "rawingredients001",
+      "version": "1"
+    }    
+
+  ]
+}

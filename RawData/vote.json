@@ -1,0 +1,78 @@
+{
+ 	"action": "fuelSDKIgniteEvents",
+ 	"data": {
+ 		"success": true,
+ 		"events": [{
+ 			"id": "5b2a84814e80f108d60010b9",
+ 			"authorized": true,
+ 			"type": 4,
+ 			"state": "active",
+ 			"typemetadata": {
+ 				"name": "Polls are Open",
+ 				"virtualGoods": [{
+ 					"goodId": "SunTribute",
+ 					"id": "5b200921315873297d020705",
+ 					"ratio": 0.5,
+ 					"cap": 1,
+ 					"description": "Sun Tribute",
+ 					"iconUrl": "\/\/cdn.fuelpowered.com\/images\/d4370c30953044387b263eb07661f62c_default.png"
+ 				}],
+ 				"groupLimit": 1000,
+ 				"participationVirtualGood": {
+ 					"iconUrl": "\/\/cdn.fuelpowered.com\/images\/9efbc7661b3d673c1cb80cafc770a8dc_default.png",
+ 					"id": "5b2005103158737e5701dd47",
+ 					"description": "No Op",
+ 					"goodId": "NoOp"
+ 				}
+ 			},
+ 			"metadata": {
+ 				"name": "Polls are open.",
+ 				"imageUrl": "http:\/\/cdn-internal.fuelpowered.com\/images\/e2eb9454ff4c87cfeb450169bc6e6b56_default.png"
+ 			},
+ 			"joined": true,
+ 			"achieved": false,
+ 			"startTime": 1529517000,
+ 			"eventId": "5b2a84814e80f108d60010bc",
+ 			"endTime": 1529689800
+ 		}, {
+ 			"id": "5b298c1d4e80f108c7000211",
+ 			"authorized": true,
+ 			"type": 4,
+ 			"state": "active",
+ 			"typemetadata": {
+ 				"name": "Submit your design when ready",
+ 				"virtualGoods": [{
+ 					"goodId": "NoOp",
+ 					"id": "5b2005103158737e5701dd47",
+ 					"ratio": 0.5,
+ 					"cap": 10000,
+ 					"description": "No Op",
+ 					"iconUrl": "\/\/cdn.fuelpowered.com\/images\/9efbc7661b3d673c1cb80cafc770a8dc_default.png"
+ 				}, {
+ 					"goodId": "NoOp",
+ 					"id": "5b2005103158737e5701dd47",
+ 					"ratio": 0.5,
+ 					"cap": 10000,
+ 					"description": "No Op",
+ 					"iconUrl": "\/\/cdn.fuelpowered.com\/images\/9efbc7661b3d673c1cb80cafc770a8dc_default.png"
+ 				}],
+ 				"groupLimit": 10000,
+ 				"participationVirtualGood": {
+ 					"iconUrl": "\/\/cdn.fuelpowered.com\/images\/9efbc7661b3d673c1cb80cafc770a8dc_default.png",
+ 					"id": "5b2005103158737e5701dd47",
+ 					"description": "No Op",
+ 					"goodId": "NoOp"
+ 				}
+ 			},
+ 			"metadata": {
+ 				"name": "Dinner in Vancouver",
+ 				"imageUrl": "http:\/\/cdn-internal.fuelpowered.com\/images\/e2eb9454ff4c87cfeb450169bc6e6b56_default.png"
+ 			},
+ 			"joined": true,
+ 			"achieved": false,
+ 			"startTime": 1529452800,
+ 			"eventId": "5b298c1d4e80f108c7000215",
+ 			"endTime": 1529625600
+ 		}]
+ 	}
+ }

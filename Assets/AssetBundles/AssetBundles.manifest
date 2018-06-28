@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2776586376
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: rawingredients001
+      Dependencies: {}
+    Info_1:
+      Name: challengebundle01
+      Dependencies: {}
+    Info_2:
+      Name: pantryitems001
+      Dependencies: {}
+    Info_3:
+      Name: masterassetbundlemanifest
+      Dependencies: {}

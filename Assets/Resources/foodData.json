@@ -1,0 +1,138 @@
+{
+  "IngredientDataSet": "Core",
+  "version": "0.1",
+  "IngredientList": [
+    {
+      "name": "Capers",
+      "filename": "rawIngredients_capers",
+      "id": "001",
+      "type": "raw"
+    },
+    {
+      "name": "Red Peppers",
+      "filename": "rawIngredients_peppers",
+      "id": "002",
+      "type": "raw"
+    },
+    {
+      "name": "Beans",
+      "filename": "rawIngredients_beans",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Asperagus",
+      "filename": "rawIngredients_asperagus",
+      "id": "004",
+      "type": "raw"
+    },
+    {
+      "name": "Chilli Peppers Green",
+      "filename": "rawIngredients_chilliPepperGreen",
+      "id": "005",
+      "type": "raw"
+    },
+    {
+      "name": "Chilli Peppers Red",
+      "filename": "rawIngredients_chilliPepperRed",
+      "id": "006",
+      "type": "raw"
+    },
+    {
+      "name": "Chilli Peppers Dry",
+      "filename": "rawIngredients_chilliPepperDry",
+      "id": "007",
+      "type": "raw"
+    },
+    {
+      "name": "Cranberries",
+      "filename": "rawIngredients_cranberries",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Garlic",
+      "filename": "rawIngredients_garlic",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Sliced Ginger",
+      "filename": "rawIngredients_gingerSliced",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Cut Green Onions",
+      "filename": "rawIngredient_greenOnionCut",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Hot Peppers",
+      "filename": "rawIngredient_hotPeppers",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Lentals",
+      "filename": "rawIngredient_lentals",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Musturd Powder",
+      "filename": "rawIngredient_musturdPowder",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Olives",
+      "filename": "rawIngredient_olives",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+      "name": "Sliced Onions",
+      "filename": "rawIngredient_onionsSliced",
+      "id": "003",
+      "type": "raw"
+    },
+     {
+      "name": "Orange Root",
+      "filename": "rawIngredient_orangeRoot",
+      "id": "003",
+      "type": "raw"
+    },
+     {
+      "name": "Orange Slice",
+      "filename": "rawIngredient_orangeSlice",
+      "id": "003",
+      "type": "raw"
+    },
+     {
+      "name": "Pumpkin Seeds",
+      "filename": "rawIngredient_pumpkinSeeds",
+      "id": "003",
+      "type": "raw"
+    },
+     {
+      "name": "Red Pepper Corns",
+      "filename": "rawIngredient_redPepperCorn",
+      "id": "003",
+      "type": "raw"
+    },
+     {
+      "name": "Safron",
+      "filename": "rawIngredient_safron",
+      "id": "003",
+      "type": "raw"
+    },
+    {
+    "name": "Walnuts",
+    "filename": "rawIngredient_walnuts",
+    "id": "003",
+    "type": "raw"
+    }
+  ]
+}
