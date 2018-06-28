@@ -24,7 +24,7 @@ namespace MasterChef.data
 
     public class PantryItemRecord
     {
-        public string guid;
+        //public string guid;
         public string ItemIsPrize;
         public string ItemNameLabel;
         public string ItemDescLabel;
