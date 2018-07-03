@@ -52,14 +52,71 @@ public class SearchTags : MonoBehaviour
         _searchTagData.SearchTagList = new List<SearchTagRecord>();
 
         //fill in categories
+
+        //------------------MAIN-------------------
         SearchTagRecord record = CreateRecord("Main");
         _searchTagData.SearchTagList.Add(record);
 
-        record = CreateRecord("Appies");
+
+        SearchTagRecord subRecord = CreateRecord("Beef");
+        record.SearchTagList.Add(subRecord);
+
+        subRecord = CreateRecord("Veggies");
+        record.SearchTagList.Add(subRecord);
+
+        subRecord = CreateRecord("Chicken");
+        record.SearchTagList.Add(subRecord);
+
+        subRecord = CreateRecord("Fish");
+        record.SearchTagList.Add(subRecord);
+
+        //-----------------------------------------
+
+
+        //----------------APPETIZER----------------
+        record = CreateRecord("Appetizer");
         _searchTagData.SearchTagList.Add(record);
 
-        record = CreateRecord("Deserts");
+        subRecord = CreateRecord("Soup");
+        record.SearchTagList.Add(subRecord);
+
+        subRecord = CreateRecord("Bread");
+        record.SearchTagList.Add(subRecord);
+
+        //-----------------------------------------
+
+        //DESERT
+        record = CreateRecord("Desert");
         _searchTagData.SearchTagList.Add(record);
+
+
+        //COLD DRINKS
+        record = CreateRecord("ColdDrinks");
+        _searchTagData.SearchTagList.Add(record);
+
+
+
+        //HOT DRINKS
+        record = CreateRecord("HotDrinks");
+        _searchTagData.SearchTagList.Add(record);
+
+        //PLATES
+        record = CreateRecord("Plates");
+        _searchTagData.SearchTagList.Add(record);
+
+        //PLACEMATS
+        record = CreateRecord("PlaceMats");
+        _searchTagData.SearchTagList.Add(record);
+
+        //CUTLERY
+        record = CreateRecord("Cutlery");
+        _searchTagData.SearchTagList.Add(record);
+
+        //CENTER PIECES
+        record = CreateRecord("CenterPieces");
+        _searchTagData.SearchTagList.Add(record);
+
+
 
         SaveJsonData();
 
@@ -85,6 +142,10 @@ public class SearchTags : MonoBehaviour
 
     }
 
+    public void LoadJsonData()
+    {
+
+    }
 
 
 }

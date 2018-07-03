@@ -34,6 +34,34 @@ public class mcSceneJsonController : MonoBehaviour
         */
 
 	}
+
+
+    public void onButtonClickParseChildren()
+    {
+
+        foreach (Transform childObj in transform)
+        {
+            Debug.Log("Foreach loop: " + childObj);
+
+
+            GameObject go = childObj.gameObject;
+
+            mcSceneJsonObj obj = go.GetComponent<mcSceneJsonObj>();
+
+            if(obj != null)
+            {
+
+
+            }
+
+
+
+
+        }
+
+
+    }
+
 	
 	void Update () 
     {
