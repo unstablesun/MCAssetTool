@@ -30,8 +30,8 @@ public class JsonDataManager : MonoBehaviour
 
         if (jsonObj == null)
             Debug.Log("LoadDefaults : jsonRawText load failed");
-        else
-            Debug.Log("LoadDefaults : jsonRawText success! = " + jsonObj.ToString());
+        //else
+        //    Debug.Log("LoadDefaults : jsonRawText success! = " + jsonObj.ToString());
 
         pantryItemData = JsonConvert.DeserializeObject<PantryItemData>(jsonObj.ToString());
 

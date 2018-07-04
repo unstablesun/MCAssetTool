@@ -6,30 +6,12 @@ using MasterChef.data;
 
 public class mcSceneJsonObj : MonoBehaviour 
 {
-    [System.Serializable]
-    public class TagInfo
-    {
-        public int tagID;
 
-        public enum topTags
-        {
-            tagMeat,
-            tagBread,
-            tagDrink,
-            tagColorWhite,
-            tagColorBrown,
-            tagColorRed,
-            tagColorGreen,
-        }
-        public topTags tt = topTags.tagMeat;
-    }
- 
-    public List<TagInfo> tagInfo = new List<TagInfo>();
+    public List<mcSearchTags> tagInfo = new List<mcSearchTags>();
 
     public string ItemPrice = "1000";
     public string ItemName = "NameID";
     public string ItemDesc = "DescID";
-
 
 
 
@@ -46,7 +28,7 @@ public class mcSceneJsonObj : MonoBehaviour
         string sName = sImage.name;
 
         System.Guid myGUID = System.Guid.NewGuid();
-        Debug.Log("myGUID ->" + myGUID.ToString());
+        //Debug.Log("myGUID ->" + myGUID.ToString());
 
 
         /*
@@ -56,6 +38,7 @@ public class mcSceneJsonObj : MonoBehaviour
         Debug.Log("... pHeight = " + pHeight);
         Debug.Log("... sName = " + sName);
         */
+
 
 
 	

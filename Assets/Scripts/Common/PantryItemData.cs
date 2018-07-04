@@ -19,6 +19,8 @@ namespace MasterChef.data
         public string filename;
         public float offsetX;
         public float offsetY;
+        public float width;
+        public float height;
     }
 
 
