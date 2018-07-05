@@ -19,8 +19,6 @@ namespace MasterChef.data
         public string filename;
         public float offsetX;
         public float offsetY;
-        public float width;
-        public float height;
     }
 
 
@@ -33,17 +31,13 @@ namespace MasterChef.data
         public string ItemPriceLabel;
         public string ItemCreationTime;
 
-        //legacy
+        //primary
         public string filename;
 
 
         public List<PantryItemTag> TagList { get; set; }
         public List<PantryItemImage> ImageList { get; set; }
 
-        public static implicit operator List<object>(PantryItemRecord v)
-        {
-            throw new NotImplementedException();
-        }
     }
 
     public class PantryItemData

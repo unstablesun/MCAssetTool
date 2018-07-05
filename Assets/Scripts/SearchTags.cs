@@ -143,6 +143,20 @@ public class SearchTags : MonoBehaviour
     }
 
 
+
+    public string SearchForRecord(string target)
+    {
+        foreach(SearchTagRecord sTr in _searchTagData.SearchTagList)
+        {
+
+
+        }
+
+        return null;
+    }
+
+
+
     public SearchTagRecord CreateRecord(string tag, int column)
     {
         SearchTagRecord r = new SearchTagRecord();

@@ -6,17 +6,22 @@ using MasterChef.data;
 
 public class mcSceneJsonObj : MonoBehaviour 
 {
+    public bool IncludeInExport = true;
 
-    public List<mcSearchTags> tagInfo = new List<mcSearchTags>();
+    public List<mcSearchTags> tagList = new List<mcSearchTags>();
 
-    public string ItemPrice = "1000";
+    public bool IsPrize = false;
+
     public string ItemName = "NameID";
     public string ItemDesc = "DescID";
+    public string ItemPrice = "1000";
+    public string ItemCreationTime = "2018-07-05"; //ISO 8601
 
 
 
 	void Start () 
     {
+        /*
         Image attachedImage = GetComponent<Image>();
 
 
@@ -30,6 +35,7 @@ public class mcSceneJsonObj : MonoBehaviour
         System.Guid myGUID = System.Guid.NewGuid();
         //Debug.Log("myGUID ->" + myGUID.ToString());
 
+        */
 
         /*
         Debug.Log("ObjInfo ->");

@@ -2,69 +2,87 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using MasterChef.data;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Serialization;
+using System.IO;using MasterChef.data;
 
 public class mcSceneJsonController : MonoBehaviour 
 {
-    PantryItemData itemData = null;
+    public List<GameObject> bundleList = null;
+
+    public string dataSetStr = "base";
+    public string versionStr = "0.0.0";
+
+
+    PantryItemData pantryItemData = null;
+
 
 	void Start () 
     {
-        itemData = new PantryItemData();
-        itemData.PantryItemList = new List<PantryItemRecord>();
-
-
-        Image attachedImage = GetComponent<Image>();
-
-
-        int depth = attachedImage.depth;
-        float pWidth = attachedImage.preferredWidth;
-        float pHeight = attachedImage.preferredHeight;
-
-        Sprite sImage = attachedImage.sprite;
-        string sName = sImage.name;
-
-
-        /*
-        Debug.Log("ObjInfo ->");
-        Debug.Log("... depth = " + depth);
-        Debug.Log("... pWidth = " + pWidth);
-        Debug.Log("... pHeight = " + pHeight);
-        Debug.Log("... sName = " + sName);
-        */
+        
+        pantryItemData = new PantryItemData();
+        pantryItemData.PantryItemList = new List<PantryItemRecord>();
 
 	}
 
 
     public void onButtonClickParseChildren()
     {
+        pantryItemData.version = versionStr;
+        pantryItemData.IngredientDataSet = dataSetStr;
 
-        foreach (Transform childObj in transform)
+        foreach(GameObject go in bundleList)
         {
-            Debug.Log("Foreach loop: " + childObj);
-
-
-            GameObject go = childObj.gameObject;
-
-            mcSceneJsonObj obj = go.GetComponent<mcSceneJsonObj>();
-
-            if(obj != null)
+            foreach (Transform childObj in go.transform)
             {
+                GameObject go2 = childObj.gameObject;
 
+                mcSceneJsonObj jsonObj = go2.GetComponent<mcSceneJsonObj>();
 
+                if (jsonObj != null)
+                {
+                    if (jsonObj.IncludeInExport == true)
+                    {
+                        PantryItemRecord pantryItemRecord = new PantryItemRecord();
+
+                        pantryItemRecord.filename = jsonObj.name;
+                        pantryItemRecord.ItemIsPrize = jsonObj.IsPrize.ToString();
+                        pantryItemRecord.ItemNameLabel = jsonObj.ItemName;
+                        pantryItemRecord.ItemPriceLabel = jsonObj.ItemPrice;
+                        pantryItemRecord.ItemDescLabel = jsonObj.ItemDesc;
+                        pantryItemRecord.ItemCreationTime = jsonObj.ItemCreationTime;
+
+                        //Debug.Log("filename = " + jsonObj.name);
+
+                        pantryItemRecord.TagList = new List<PantryItemTag>();
+
+                        //get enum tags and search for 
+                        foreach (mcSearchTags mcSTag in jsonObj.tagList)
+                        {
+                            PantryItemTag pantryTagItem = new PantryItemTag();
+
+                            string tagStr = mcSTag.eTag.ToString();
+                            pantryTagItem.ItemTag = tagStr;
+                            pantryItemRecord.TagList.Add(pantryTagItem);
+                        }
+
+                        pantryItemData.PantryItemList.Add(pantryItemRecord);
+                    }
+                }
             }
-
-
-
-
         }
 
+        SaveMasterList();
 
     }
 
-	
-	void Update () 
+    public void SaveMasterList()
     {
-		
-	}
+        var jsonString = JsonConvert.SerializeObject(pantryItemData);
+        string path = Application.dataPath + "/Resources/PantryItemMasterList3.json";
+        File.WriteAllText(path, jsonString);
+
+    }
+
 }

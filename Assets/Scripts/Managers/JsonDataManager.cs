@@ -14,16 +14,11 @@ public class JsonDataManager : MonoBehaviour
     public PantryItemData pantryItemData;
 
 	void Start () 
-    {
-        LoadMasterList();
-	}
+    {}
 	
-	void Update () 
-    {
-        LoadMasterList();
-	}
 
 
+    //Probably only be saving here
     public void LoadMasterList()
     {
         TextAsset jsonObj = Resources.Load("PantryItemMasterList") as TextAsset;
@@ -37,13 +32,11 @@ public class JsonDataManager : MonoBehaviour
 
     }
 
+
     public void SaveMasterList()
     {
         var jsonString = JsonConvert.SerializeObject(pantryItemData);
-
         string path = Application.dataPath + "/Resources/PantryItemMasterList2.json";
-
-
         File.WriteAllText(path, jsonString);
 
 

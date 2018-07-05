@@ -11,67 +11,21 @@ public class ManifestManager : MonoBehaviour
 {
     public static ManifestManager Instance = null;
 
+
+
+    public static string ImportFolder = "AssetCreation";
+
     void Awake()
     {
         Instance = this;
     }
 
-    //void Start() 
-    //{}
+    void Start() 
+    {}
 
-    //void Update() 
-    //{}
+    void Update() 
+    {}
 
-    //[SerializeField]
-    //public string PrefabName = "ManifestListX";
-
-    //[SerializeField]
-    //public int NumPointsUsed = 0;
-
-    //[SerializeField]
-    //public ManifestEntry[] mManifestEntries = null;
-
-    /*
-    //This must be called at runtime
-    [MenuItem("Manifest/Save ManifestList Prefab (Runtime)")]
-    private static void SaveManifestListPrefab()
-    {
-        if (ManifestManager.Instance != null)
-        {
-
-            if (ManifestManager.Instance.mManifestEntries != null)
-            {
-
-                ManifestManager.Instance.CreateAndSavePrefab();
-
-            }
-        }
-    }
-    */
-    /*
-    private void CreateAndSavePrefab()
-    {
-        GameObject objectPrefab = new GameObject(PrefabName);
-
-        ManifestList scriptRef = objectPrefab.AddComponent<ManifestList>() as ManifestList;
-
-        //int length = WayPointManager.Instance.mWayPointEditList.GetLength (0);
-        int length = NumPointsUsed;
-        scriptRef.InitList(length);
-        for (int i = 0; i < length; i++)
-        {
-
-            ManifestEntry me = ManifestManager.Instance.mManifestEntries[i];
-            scriptRef.AddManifestEntry(me, i);
-
-        }
-        scriptRef.PrefabName = PrefabName;
-        scriptRef.NumEntriesUsed = NumPointsUsed;
-
-        UnityEngine.Object prefab = PrefabUtility.CreateEmptyPrefab("Assets/Resources/Prefabs/Manifests/" + objectPrefab.name + ".prefab");
-        PrefabUtility.ReplacePrefab(objectPrefab, prefab, ReplacePrefabOptions.ConnectToPrefab);
-    }
-    */
 
     static public Sprite[] assetSprites;
 
@@ -79,10 +33,10 @@ public class ManifestManager : MonoBehaviour
     [MenuItem("Manifest/Load ManifestList Prefabs (Editor)")]
     private static void LoadManifestListPrefabs()
     {
-        assetSprites = Resources.LoadAll<Sprite>("AssetCreation");
+        assetSprites = Resources.LoadAll<Sprite>(ImportFolder);
 
 
-        DirectoryInfo dir = new DirectoryInfo("Assets/Resources/AssetCreation/");
+        DirectoryInfo dir = new DirectoryInfo("Assets/Resources/" + ImportFolder + "/");
         FileInfo[] info = dir.GetFiles("*.png");
 
 
@@ -101,12 +55,11 @@ public class ManifestManager : MonoBehaviour
                 GameObject go = PrefabUtility.InstantiatePrefab(prefab) as GameObject;
                 go.transform.parent = selectedGameObject.transform;
 
-                RectTransform rectTransform = go.GetComponent<RectTransform>();
-                rectTransform.localPosition = new Vector2(-1000, -1000);
+                //RectTransform rectTransform = go.GetComponent<RectTransform>();
+                //rectTransform.localPosition = new Vector2(-1000, -1000);
 
                 Image image = go.GetComponent<Image>();
                 image.SetNativeSize();
-
 
                 image.sprite = assetSprites[findex];
 
@@ -115,12 +68,39 @@ public class ManifestManager : MonoBehaviour
                 findex++;
             }
 
-
-
-
         }
     }
 
+    [MenuItem("Manifest/SetManifestImportFolder to AssetCreation1")]
+    private static void SetManifestImportFolder1()
+    { 
+        ImportFolder = "AssetCreation";
+    }
+    [MenuItem("Manifest/SetManifestImportFolder to AssetCreation2")]
+    private static void SetManifestImportFolder2()
+    {
+        ImportFolder = "AssetCreation";
+    }
+    [MenuItem("Manifest/SetManifestImportFolder to AssetCreation3")]
+    private static void SetManifestImportFolder3()
+    {
+        ImportFolder = "AssetCreation";
+    }
+    [MenuItem("Manifest/SetManifestImportFolder to AssetCreation4")]
+    private static void SetManifestImportFolder4()
+    {
+        ImportFolder = "AssetCreation";
+    }
+    [MenuItem("Manifest/SetManifestImportFolder to AssetCreation5")]
+    private static void SetManifestImportFolder5()
+    {
+        ImportFolder = "AssetCreation";
+    }
+    [MenuItem("Manifest/SetManifestImportFolder to AssetCreation6")]
+    private static void SetManifestImportFolder6()
+    {
+        ImportFolder = "AssetCreation";
+    }
 
 
 
@@ -137,39 +117,6 @@ public class ManifestManager : MonoBehaviour
         }
 
     }
-    /*
-    //This must be called at runtime
-    [MenuItem("Manifest/Edit Selected ManifestList (Runtime)")]
-    private static void EditSelectedManifestList()
-    {
-
-        GameObject selectedGameObject = Selection.activeGameObject;
-        Debug.Log("selectedGameObject = " + selectedGameObject.name);
-
-        //this is the WayPointList
-        ManifestList meList = selectedGameObject.GetComponent<ManifestList>();
-
-
-        //this is the WayPointManager
-        GameObject WayPointManagerObject = GameObject.Find("ManifestManager");
-        ManifestManager meManager = WayPointManagerObject.GetComponent<ManifestManager>();
-
-        int numPoints = meList.NumEntriesUsed;
-
-        meManager.PrefabName = meList.PrefabName;
-        meManager.NumPointsUsed = meList.NumEntriesUsed;
-
-        Debug.Log("EditSelectedWayPoint : numPoints = " + numPoints);
-        for (int i = 0; i < numPoints; i++)
-        {
-
-            ManifestEntry me = meList.GetManifestEntryAtIndex(i);
-            ManifestManager.Instance.mManifestEntries[i] = me;
-
-        }
-
-    }
-    */
 
 
 }
