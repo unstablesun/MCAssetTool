@@ -74,36 +74,36 @@ public class ManifestManager : MonoBehaviour
     [MenuItem("Manifest/SetManifestImportFolder to AssetCreation1")]
     private static void SetManifestImportFolder1()
     { 
-        ImportFolder = "AssetCreation";
+        ImportFolder = "AssetCreation1";
     }
     [MenuItem("Manifest/SetManifestImportFolder to AssetCreation2")]
     private static void SetManifestImportFolder2()
     {
-        ImportFolder = "AssetCreation";
+        ImportFolder = "AssetCreation2";
     }
     [MenuItem("Manifest/SetManifestImportFolder to AssetCreation3")]
     private static void SetManifestImportFolder3()
     {
-        ImportFolder = "AssetCreation";
+        ImportFolder = "AssetCreation3";
     }
     [MenuItem("Manifest/SetManifestImportFolder to AssetCreation4")]
     private static void SetManifestImportFolder4()
     {
-        ImportFolder = "AssetCreation";
+        ImportFolder = "AssetCreation4";
     }
     [MenuItem("Manifest/SetManifestImportFolder to AssetCreation5")]
     private static void SetManifestImportFolder5()
     {
-        ImportFolder = "AssetCreation";
+        ImportFolder = "AssetCreation5";
     }
     [MenuItem("Manifest/SetManifestImportFolder to AssetCreation6")]
     private static void SetManifestImportFolder6()
     {
-        ImportFolder = "AssetCreation";
+        ImportFolder = "AssetCreation6";
     }
 
 
-
+    //reference
     private static void GetFileList()
     {
 
