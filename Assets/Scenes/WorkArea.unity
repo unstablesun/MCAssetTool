@@ -525,7 +525,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b917b717747741d4a050c8e5314b07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagInfo: []
+  tagInfo:
+  - tagID: 0
+    eTag: 4
+  - tagID: 0
+    eTag: 5
   ItemPrice: 1000
   ItemName: NameID
   ItemDesc: DescID
@@ -1676,15 +1680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b917b717747741d4a050c8e5314b07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagInfo:
-  - tagID: 0
-    tt: 3
-  - tagID: 0
-    tt: 4
-  - tagID: 0
-    tt: 4
-  - tagID: 0
-    tt: 4
+  tagInfo: []
   ItemPrice: 1000
   ItemName: NameID
   ItemDesc: DescID
@@ -1719,6 +1715,27 @@ MonoBehaviour:
   Hash1_Fix2_0: []
   Hash2: []
   Hash3:
+  - list:
+    - {fileID: 379124028}
+    ActiveGameObject: {fileID: 379124028}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 266876696}
+    ActiveGameObject: {fileID: 266876696}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 791772077}
+    ActiveGameObject: {fileID: 791772077}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
   - list:
     - {fileID: 862541762}
     ActiveGameObject: {fileID: 862541762}
@@ -1769,13 +1786,6 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 379124028}
-    ActiveGameObject: {fileID: 379124028}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
     - {fileID: 1955302370}
     ActiveGameObject: {fileID: 1955302370}
     GUIDsList: []
@@ -1797,22 +1807,8 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 266876696}
-    ActiveGameObject: {fileID: 266876696}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
     - {fileID: 1900070955}
     ActiveGameObject: {fileID: 1900070955}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 791772077}
-    ActiveGameObject: {fileID: 791772077}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2926,9 +2922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b917b717747741d4a050c8e5314b07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagInfo:
-  - tagID: 0
-    tt: 1
+  tagInfo: []
   ItemPrice: 1000
   ItemName: NameID
   ItemDesc: DescID

@@ -14,7 +14,7 @@ public class mcSearchTags
 			Veggies_1,
 			Chicken_1,
 			Fish_1,
-				PorkChops_2,
+				GrilledSalmon_2,
 		Appetizer_0,
 			Soup_1,
 			Bread_1,
@@ -27,5 +27,6 @@ public class mcSearchTags
 		Cutlery_0,
 		CenterPieces_0,
 	}
+ 
 	public eSearchTags eTag = eSearchTags.Main_0;
 }
