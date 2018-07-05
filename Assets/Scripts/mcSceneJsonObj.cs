@@ -11,13 +11,14 @@ public class mcSceneJsonObj : MonoBehaviour
     public List<mcSearchTags> tagList = new List<mcSearchTags>();
 
     public bool IsPrize = false;
+    public bool IsSubImage = false;
 
     public string ItemName = "NameID";
     public string ItemDesc = "DescID";
     public string ItemPrice = "1000";
     public string ItemCreationTime = "2018-07-05"; //ISO 8601
 
-
+    public List<GameObject> extraImageList = null;
 
 	void Start () 
     {
