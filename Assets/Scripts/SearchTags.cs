@@ -30,28 +30,44 @@ public class SearchTags : MonoBehaviour
 
     //working variables
     private TextAsset jsonRawText = null;
-    private TextAsset jsonRawList = null;
+    //private TextAsset jsonRawList = null;
     bool loadPending = true;
 
     SearchTagData _searchTagData;
 
+
+
+    static SearchTags s_instance;
+    public static SearchTags Instance
+    {
+        get
+        {
+            return s_instance as SearchTags;
+        }
+    }
+
     void Awake()
     {
-        StartCoroutine(LoadSearchTagsAsync());
+        s_instance = this;
 
+        StartCoroutine(LoadSearchTagsAsync());
     }
 
 	void Start () 
     {
+        //----------------------------------
+        //MCAssetTool Only!
         //OneTimeInit();
         //WriteTagsToScriptEnums();
+        //----------------------------------
  	}
 	
 	void Update () 
     {
-        if(loadPending == true)
+        if (loadPending == true)
+        {
             loadPending = LoadSearchTagJsonData();
-
+        }
 	}
 
 
@@ -172,20 +188,6 @@ public class SearchTags : MonoBehaviour
         SaveJsonData();
 
     }
-
-
-
-    public string SearchForRecord(string target)
-    {
-        foreach(SearchTagRecord sTr in _searchTagData.SearchTagList)
-        {
-
-
-        }
-
-        return null;
-    }
-
 
 
     public SearchTagRecord CreateRecord(string tag, int column)
@@ -358,14 +360,22 @@ public class SearchTags : MonoBehaviour
 
             if(tag_column == searchTagColumn)
             {
-                
+                if (tagRecord.SearchTagList != null && tagRecord.SearchTagList.Count > 0)
+                {
+                    List<SearchTagRecord> subTagList = tagRecord.SearchTagList;
+                    foreach (SearchTagRecord subTagRecord in subTagList)
+                    {
+                        returnList.Add(subTagRecord);
+                    }
+                }
+                else
+                {
+                    returnList.Add(tagRecord);
+                }
+                break;
             }
 
-
         }
-
-
-
 
         return returnList;
 
@@ -378,14 +388,17 @@ public class SearchTags : MonoBehaviour
 
         foreach(SearchTagRecord str in result)
         {
-            Debug.Log("str = " + str.TagName);
+            Debug.Log("Top Level = " + str.TagName);
         }
 
+        result = SearchForTagList("ColdDrinks_0");
 
-
+        foreach (SearchTagRecord str in result)
+        {
+            Debug.Log("Sub Level = " + str.TagName);
+        }
 
     }
-
 
 
 }

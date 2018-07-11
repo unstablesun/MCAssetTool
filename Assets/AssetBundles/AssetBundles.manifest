@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 833430892
+CRC: 1052967494
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -15,5 +15,8 @@ AssetBundleManifest:
       Name: masterassetbundlemanifest
       Dependencies: {}
     Info_4:
+      Name: mastertaglistbundle
+      Dependencies: {}
+    Info_5:
       Name: realdatatest01
       Dependencies: {}

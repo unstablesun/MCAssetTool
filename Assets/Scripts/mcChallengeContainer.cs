@@ -8,6 +8,15 @@ using Newtonsoft.Json.Serialization;
 using System.IO;
 using MasterChef.data;
 
+
+/*
+ * -----------------------------------------------------------------------------
+ * 
+ *      mcChallengeContainer - tool only container for creating json
+ * 
+ * 
+ * -----------------------------------------------------------------------------
+ */
 public class mcChallengeContainer : MonoBehaviour 
 {
     public string dataSetStr = "base";

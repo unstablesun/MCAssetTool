@@ -4,6 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using MasterChef.data;
 
+
+/*
+ *------------------------------------------------------------------------------ 
+ *      mcSceneJsonObj - tool only obj for creating pantry json
+ * 
+ *------------------------------------------------------------------------------ 
+ */
 public class mcSceneJsonObj : MonoBehaviour 
 {
     public bool IncludeInExport = true;
@@ -22,7 +29,7 @@ public class mcSceneJsonObj : MonoBehaviour
 
 	void Start () 
     {
-        /*
+        /* DEBUG
         Image attachedImage = GetComponent<Image>();
 
 
@@ -45,21 +52,6 @@ public class mcSceneJsonObj : MonoBehaviour
         Debug.Log("... pHeight = " + pHeight);
         Debug.Log("... sName = " + sName);
         */
-
-
-
-	
 	}
 	
-	void Update () 
-    {
-		
-	}
-
-
-    public void GetObjStruct()
-    {
-
-    }
-
 }
