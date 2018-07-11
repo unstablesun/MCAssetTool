@@ -11,7 +11,7 @@ using MasterChef.data;
 public class JsonDataManager : MonoBehaviour 
 {
     [HideInInspector]
-    public PantryItemData pantryItemData;
+    public PantryManager.ItemData pantryItemData;
 
 	void Start () 
     {}
@@ -28,7 +28,7 @@ public class JsonDataManager : MonoBehaviour
         //else
         //    Debug.Log("LoadDefaults : jsonRawText success! = " + jsonObj.ToString());
 
-        pantryItemData = JsonConvert.DeserializeObject<PantryItemData>(jsonObj.ToString());
+        pantryItemData = JsonConvert.DeserializeObject<PantryManager.ItemData>(jsonObj.ToString());
 
     }
 

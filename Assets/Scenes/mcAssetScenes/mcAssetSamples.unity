@@ -1958,11 +1958,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 561818765}
---- !u!1 &561818767 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 561818765}
 --- !u!1001 &577292960
 Prefab:
   m_ObjectHideFlags: 0
@@ -4785,8 +4780,8 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1685846332}
-    ActiveGameObject: {fileID: 1685846332}
+    - {fileID: 1585676436}
+    ActiveGameObject: {fileID: 1585676436}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -4799,8 +4794,22 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1585676436}
-    ActiveGameObject: {fileID: 1585676436}
+    - {fileID: 1685846332}
+    ActiveGameObject: {fileID: 1685846332}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1279620741}
+    ActiveGameObject: {fileID: 1279620741}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1631030356}
+    ActiveGameObject: {fileID: 1631030356}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -4927,20 +4936,6 @@ MonoBehaviour:
   - list:
     - {fileID: 605760594}
     ActiveGameObject: {fileID: 605760594}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 561818767}
-    ActiveGameObject: {fileID: 561818767}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1104485615}
-    ActiveGameObject: {fileID: 1104485615}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -5108,11 +5103,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1104485613}
---- !u!1 &1104485615 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1104485613}
 --- !u!1001 &1110198367
 Prefab:
   m_ObjectHideFlags: 0
@@ -5223,7 +5213,7 @@ Prefab:
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
       propertyPath: tagList.Array.data[0].eTag
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
@@ -6003,6 +5993,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1274357253}
+--- !u!1 &1279620741 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1934491634}
 --- !u!1 &1285758634 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,

@@ -15,14 +15,14 @@ public class mcSceneJsonController : MonoBehaviour
     public string versionStr = "0.0.0";
 
 
-    PantryItemData pantryItemData = null;
+    PantryManager.ItemData pantryItemData = null;
 
 
 	void Start () 
     {
         
-        pantryItemData = new PantryItemData();
-        pantryItemData.PantryItemList = new List<PantryItemRecord>();
+        pantryItemData = new PantryManager.ItemData();
+        pantryItemData.ItemList = new List<PantryManager.ItemRecord>();
 
 	}
 
@@ -44,30 +44,30 @@ public class mcSceneJsonController : MonoBehaviour
                 {
                     if (jsonObj.IncludeInExport == true)
                     {
-                        PantryItemRecord pantryItemRecord = new PantryItemRecord();
+                        PantryManager.ItemRecord pantryItemRecord = new PantryManager.ItemRecord();
 
                         pantryItemRecord.filename = jsonObj.name;
-                        pantryItemRecord.ItemIsPrize = jsonObj.IsPrize.ToString();
-                        pantryItemRecord.ItemNameLabel = jsonObj.ItemName;
-                        pantryItemRecord.ItemPriceLabel = jsonObj.ItemPrice;
-                        pantryItemRecord.ItemDescLabel = jsonObj.ItemDesc;
-                        pantryItemRecord.ItemCreationTime = jsonObj.ItemCreationTime;
+                        pantryItemRecord.IsPrize = jsonObj.IsPrize.ToString();
+                        pantryItemRecord.NameLabel = jsonObj.ItemName;
+                        pantryItemRecord.PriceLabel = jsonObj.ItemPrice;
+                        pantryItemRecord.DescLabel = jsonObj.ItemDesc;
+                        pantryItemRecord.CreationTime = jsonObj.ItemCreationTime;
 
                         //Debug.Log("filename = " + jsonObj.name);
 
-                        pantryItemRecord.TagList = new List<PantryItemTag>();
+                        pantryItemRecord.TagList = new List<PantryManager.ItemTag>();
 
                         //get enum tags and search for 
                         foreach (mcSearchTags mcSTag in jsonObj.tagList)
                         {
-                            PantryItemTag pantryTagItem = new PantryItemTag();
+                            PantryManager.ItemTag pantryTagItem = new PantryManager.ItemTag();
 
                             string tagStr = mcSTag.eTag.ToString();
-                            pantryTagItem.ItemTag = tagStr;
+                            pantryTagItem.Tag = tagStr;
                             pantryItemRecord.TagList.Add(pantryTagItem);
                         }
 
-                        pantryItemData.PantryItemList.Add(pantryItemRecord);
+                        pantryItemData.ItemList.Add(pantryItemRecord);
                     }
                 }
             }
