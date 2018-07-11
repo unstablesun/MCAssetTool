@@ -71,9 +71,15 @@ MonoBehaviour:
   tagList:
   - tagID: 0
     eTag: 0
-  ItemPrice: 1000
+  - tagID: 0
+    eTag: 1
+  IsPrize: 0
+  IsSubImage: 0
   ItemName: NameID
   ItemDesc: DescID
+  ItemPrice: 1000
+  ItemCreationTime: 2018-07-05
+  extraImageList: []
 --- !u!222 &222283762438245128
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -80,7 +80,7 @@ public class mcSceneJsonController : MonoBehaviour
     public void SaveMasterList()
     {
         var jsonString = JsonConvert.SerializeObject(pantryItemData);
-        string path = Application.dataPath + "/Resources/PantryItemMasterList3.json";
+        string path = Application.dataPath + "/Resources/PantryItemMasterList.json";
         File.WriteAllText(path, jsonString);
 
     }

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 209496031
+CRC: 1504232131
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8766db8d6a797d20bced25abb1dc6df8
+    Hash: 0c94673339ac6e6a0c594194ab29bc5d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 485e1b759408afe01667ebec3625c3c3
@@ -23,7 +23,6 @@ Assets:
 - Assets/AssetBundleArt/challengeData001/challengeImage0003.jpg
 - Assets/AssetBundleArt/challengeData001/challengeImage0008.jpg
 - Assets/AssetBundleArt/challengeData001/challengeImage0002.jpg
-- Assets/AssetBundleArt/challengeData001/challengeImage0007.jpg
 - Assets/AssetBundleArt/challengeData001/challengeImage0005.jpg
 - Assets/AssetBundleArt/challengeData001/challengeData001.json
 Dependencies: []

@@ -43,14 +43,14 @@ public class SearchTags : MonoBehaviour
 
 	void Start () 
     {
-        OneTimeInit();
-        WriteTagsToScriptEnums();
+        //OneTimeInit();
+        //WriteTagsToScriptEnums();
  	}
 	
 	void Update () 
     {
-        //if(loadPending == true)
-        //    loadPending = LoadSearchTagJsonData();
+        if(loadPending == true)
+            loadPending = LoadSearchTagJsonData();
 
 	}
 
@@ -71,7 +71,7 @@ public class SearchTags : MonoBehaviour
         _searchTagData.SearchTagList.Add(record);
 
 
-            SearchTagRecord subRecord = CreateRecord("Beef", 1);
+            SearchTagRecord subRecord = CreateRecord("Pizza", 1);
             record.SearchTagList.Add(subRecord);
 
             subRecord = CreateRecord("Veggies", 1);
@@ -80,11 +80,9 @@ public class SearchTags : MonoBehaviour
             subRecord = CreateRecord("Chicken", 1);
             record.SearchTagList.Add(subRecord);
 
-            subRecord = CreateRecord("Fish", 1);
+            subRecord = CreateRecord("Pancakes", 1);
             record.SearchTagList.Add(subRecord);
 
-                SearchTagRecord subRecord2 = CreateRecord("GrilledSalmon", 2);
-                subRecord.SearchTagList.Add(subRecord2);
 
 
         //-----------------------------------------
@@ -94,14 +92,8 @@ public class SearchTags : MonoBehaviour
         record = CreateRecord("Appetizer", 0);
         _searchTagData.SearchTagList.Add(record);
 
-            subRecord = CreateRecord("Soup", 1);
-            record.SearchTagList.Add(subRecord);
-
             subRecord = CreateRecord("Bread", 1);
             record.SearchTagList.Add(subRecord);
-
-                subRecord2 = CreateRecord("HotSourdough", 2);
-                subRecord.SearchTagList.Add(subRecord2);
 
 
         //-----------------------------------------
@@ -110,32 +102,71 @@ public class SearchTags : MonoBehaviour
         record = CreateRecord("Desert", 0);
         _searchTagData.SearchTagList.Add(record);
 
+            subRecord = CreateRecord("Dounut", 1);
+            record.SearchTagList.Add(subRecord);
+
+            subRecord = CreateRecord("Icecream", 1);
+            record.SearchTagList.Add(subRecord);
+
+            subRecord = CreateRecord("Cookie", 1);
+            record.SearchTagList.Add(subRecord);
 
         //COLD DRINKS
         record = CreateRecord("ColdDrinks", 0);
         _searchTagData.SearchTagList.Add(record);
 
+            subRecord = CreateRecord("Beer", 1);
+            record.SearchTagList.Add(subRecord);
 
+            subRecord = CreateRecord("Wine", 1);
+            record.SearchTagList.Add(subRecord);
+
+            subRecord = CreateRecord("Mix", 1);
+            record.SearchTagList.Add(subRecord);
 
         //HOT DRINKS
         record = CreateRecord("HotDrinks", 0);
         _searchTagData.SearchTagList.Add(record);
 
+            subRecord = CreateRecord("Tea", 1);
+            record.SearchTagList.Add(subRecord);
+
         //PLATES
         record = CreateRecord("Plates", 0);
         _searchTagData.SearchTagList.Add(record);
+
+            subRecord = CreateRecord("Dinner", 1);
+            record.SearchTagList.Add(subRecord);
 
         //PLACEMATS
         record = CreateRecord("PlaceMats", 0);
         _searchTagData.SearchTagList.Add(record);
 
+            subRecord = CreateRecord("Carbon", 1);
+            record.SearchTagList.Add(subRecord);
+
         //CUTLERY
         record = CreateRecord("Cutlery", 0);
         _searchTagData.SearchTagList.Add(record);
 
+            subRecord = CreateRecord("Knife", 1);
+            record.SearchTagList.Add(subRecord);
+
+            subRecord = CreateRecord("Fork", 1);
+            record.SearchTagList.Add(subRecord);
+
+            subRecord = CreateRecord("Spoon", 1);
+            record.SearchTagList.Add(subRecord);
+
         //CENTER PIECES
         record = CreateRecord("CenterPieces", 0);
         _searchTagData.SearchTagList.Add(record);
+
+            subRecord = CreateRecord("Vase", 1);
+            record.SearchTagList.Add(subRecord);
+
+            subRecord = CreateRecord("Candle", 1);
+            record.SearchTagList.Add(subRecord);
 
 
         SaveJsonData();
@@ -244,7 +275,7 @@ public class SearchTags : MonoBehaviour
         writer.WriteLine("public class mcSearchTags");
         writer.WriteLine("{");
 
-        writer.WriteLine("\tpublic int tagID;");
+        //writer.WriteLine("\tpublic int tagID;");
         writer.WriteLine("\tpublic enum eSearchTags");
 
         writer.WriteLine("\t{");
@@ -286,6 +317,75 @@ public class SearchTags : MonoBehaviour
 
         writer.Close();
     }
+
+
+    /*
+     * ------------------------------------------------------------------------
+
+                                TAG SEARCH
+
+
+            ex. Search for Main_0 = find reacords just under Main_0
+
+
+     * ------------------------------------------------------------------------
+     */
+    public List<SearchTagRecord> GetTopLevelTagList()
+    {
+        List<SearchTagRecord> returnList = new List<SearchTagRecord>();
+
+
+        List<SearchTagRecord> tagList = _searchTagData.SearchTagList;
+        foreach (SearchTagRecord tagRecord in tagList)
+        {
+            returnList.Add(tagRecord);
+        }
+
+        return returnList;
+
+    }
+
+    public List<SearchTagRecord> SearchForTagList(string searchTagColumn)
+    {
+        List<SearchTagRecord> returnList = new List<SearchTagRecord>();
+
+
+        List<SearchTagRecord> tagList = _searchTagData.SearchTagList;
+        foreach(SearchTagRecord tagRecord in tagList)
+        {
+            
+            string tag_column = tagRecord.TagName + "_" + tagRecord.column;
+
+            if(tag_column == searchTagColumn)
+            {
+                
+            }
+
+
+        }
+
+
+
+
+        return returnList;
+
+    }
+
+    public void OnButtonClickTestSearch()
+    {
+
+        List<SearchTagRecord> result = GetTopLevelTagList();
+
+        foreach(SearchTagRecord str in result)
+        {
+            Debug.Log("str = " + str.TagName);
+        }
+
+
+
+
+    }
+
 
 
 }
