@@ -6,6 +6,22 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
+
+
+
+
+/*
+ * ------------------------------------------------------------------------
+
+                            SearchTags
+
+
+                        Tool Version 0.0.1
+
+
+ * ------------------------------------------------------------------------
+ */
+
 public class SearchTags : MonoBehaviour 
 {
 

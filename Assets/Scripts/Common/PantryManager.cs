@@ -7,6 +7,21 @@ using UnityEngine.UI;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
+using UnityEngine.Assertions;
+
+
+
+/*
+ * ------------------------------------------------------------------------
+
+                            MasterChef
+
+
+                        Tool Version 0.0.2
+
+
+ * ------------------------------------------------------------------------
+ */
 
 namespace MasterChef.data
 {
@@ -132,6 +147,14 @@ namespace MasterChef.data
         }
 
 
+        public ItemData GetItemData()
+        {
+            Assert.IsNotNull(_pantryItemData);
+
+            return _pantryItemData;
+        }
+
+
         public List<ItemRecord> SearchForItemsWithTag(string searchTagColumn)
         {
             List<ItemRecord> returnList = new List<ItemRecord>();
@@ -154,6 +177,15 @@ namespace MasterChef.data
             return returnList;
 
         }
+
+        public Sprite GetPantryItemImage(string filename)
+        {
+            Assert.IsNotNull(pantryItemDataBundle);
+
+            return pantryItemDataBundle.LoadAsset<Sprite>(filename);
+
+        }
+
 
 
         public void OnButtonClickTestSearch()
