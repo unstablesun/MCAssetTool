@@ -27,6 +27,10 @@ namespace MasterChef.data
 {
     public class PantryManager : MonoBehaviour
     {
+        public class BaseItemData
+        {
+            
+        }
 
         public class ItemTag
         {
@@ -42,7 +46,7 @@ namespace MasterChef.data
         }
 
 
-        public class ItemRecord
+        public class ItemRecord:BaseItemData
         {
             //public string guid;
             public string IsPrize;
@@ -50,6 +54,7 @@ namespace MasterChef.data
             public string DescLabel;
             public string PriceLabel;
             public string CreationTime;
+            public int Quantity;
 
             //primary image
             public string filename;

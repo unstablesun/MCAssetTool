@@ -23,6 +23,7 @@ public class mcSceneJsonObj : MonoBehaviour
     public string ItemName = "NameID";
     public string ItemDesc = "DescID";
     public string ItemPrice = "1000";
+    public int ItemQuantity = 5;
     public string ItemCreationTime = "2018-07-05"; //ISO 8601
 
     public List<GameObject> extraImageList = null;

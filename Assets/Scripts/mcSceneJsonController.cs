@@ -52,6 +52,7 @@ public class mcSceneJsonController : MonoBehaviour
                         pantryItemRecord.PriceLabel = jsonObj.ItemPrice;
                         pantryItemRecord.DescLabel = jsonObj.ItemDesc;
                         pantryItemRecord.CreationTime = jsonObj.ItemCreationTime;
+                        pantryItemRecord.Quantity = jsonObj.ItemQuantity;
 
                         //Debug.Log("filename = " + jsonObj.name);
 
