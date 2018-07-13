@@ -1,17 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlatingObject : MonoBehaviour 
 {
+    public int ID;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject ItemImage;
+
+
+    public void OnVirtualButtonClick()
+    {
+        Debug.Log("OnVirtualButtonClick");
+
+        SendMessageUpwards("MapPinClicked", ID);
+    }
+
+
+    public void SetItemImage(Sprite s)
+    {
+
+        ItemImage.GetComponent<Image>().sprite = s;
+        ItemImage.GetComponent<Image>().SetNativeSize();
+
+    }
+
+
 }

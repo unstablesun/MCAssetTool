@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1504232131
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0c94673339ac6e6a0c594194ab29bc5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 485e1b759408afe01667ebec3625c3c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundleArt/challengeData001/challengeImage0004.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0006.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0001.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0009.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0003.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0008.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0002.jpg
+- Assets/AssetBundleArt/challengeData001/challengeImage0005.jpg
+- Assets/AssetBundleArt/challengeData001/challengeData001.json
+Dependencies: []
