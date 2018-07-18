@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3355114698
+CRC: 537326685
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d055c75f8c04a53e6948d75776bfdc27
+    Hash: 3d968c92b6b31d75d672bd93620b5cd5
   TypeTreeHash:
     serializedVersion: 2
     Hash: 485e1b759408afe01667ebec3625c3c3
@@ -24,6 +24,8 @@ Assets:
 - Assets/Resources/AssetCreationPack1/accessory_vase_creamer_blue.png
 - Assets/Resources/AssetCreationPack1/effect_candle_glow.png
 - Assets/Resources/AssetCreationPack1/appt_lemon.png
+- Assets/Resources/AssetCreationPack2/beverage_water.png
+- Assets/Resources/AssetCreationPack2/beverage_waterlemon.png
 - Assets/Resources/AssetCreationPack1/accessory_vase_lilies_red.png
 - Assets/Resources/AssetCreationPack1/dessert_cookie_2.png
 - Assets/Resources/AssetCreationPack1/main_chicken_meal.png
@@ -34,6 +36,7 @@ Assets:
 - Assets/Resources/AssetCreationPack1/dessert_donut_strawberryglaze.png
 - Assets/Resources/PantryItemMasterList.json
 - Assets/Resources/AssetCreationPack1/accessory_vase_lilies_blue.png
+- Assets/Resources/AssetCreationPack2/dessert_pie_pumpkin.png
 - Assets/Resources/AssetCreationPack1/beverage_tea_bluefloral.png
 - Assets/Resources/AssetCreationPack1/dessert_cake.png
 - Assets/Resources/AssetCreationPack1/beverage_tea_bluepolkadots.png
@@ -52,6 +55,7 @@ Assets:
 - Assets/Resources/AssetCreationPack1/dessert_donut_plain.png
 - Assets/Resources/AssetCreationPack1/setting_spoon.png
 - Assets/Resources/AssetCreationPack1/plate_white.png
+- Assets/Resources/AssetCreationPack2/main_pasta_spaghetti.png
 - Assets/Resources/AssetCreationPack1/beverage_beer_ipa.png
 - Assets/Resources/AssetCreationPack1/accessory_lettucebed.png
 - Assets/Resources/AssetCreationPack1/accessory_carrots.png
@@ -72,4 +76,5 @@ Assets:
 - Assets/Resources/AssetCreationPack1/main_pancakes_syrup.png
 - Assets/Resources/AssetCreationPack1/accessory_lettucepiece.png
 - Assets/Resources/AssetCreationPack1/beverage_tea_white.png
+- Assets/Resources/AssetCreationPack2/dessert_pie_lemonmeringue.png
 Dependencies: []

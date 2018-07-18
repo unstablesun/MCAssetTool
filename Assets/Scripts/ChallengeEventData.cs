@@ -21,6 +21,7 @@ namespace MasterChef.data
     public class PlatingRecord
     {
         public bool isRequired;
+        public int placementOrder;
         public List<string> tagList;
         public Vector2 relativePos;
     }

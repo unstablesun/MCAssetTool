@@ -102,6 +102,7 @@ public class mcChallengeContainer : MonoBehaviour
 
 
                     platingRecord.isRequired = jsonObj.IsRequired;
+                    platingRecord.placementOrder = jsonObj.PlacementOrder;
 
 
                     challengeEventData.challengeRecord.PlatingList.Add(platingRecord);
