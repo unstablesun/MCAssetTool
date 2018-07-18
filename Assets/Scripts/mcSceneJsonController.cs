@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 using System.IO;using MasterChef.data;
+using System;
 
 public class mcSceneJsonController : MonoBehaviour 
 {
@@ -29,8 +30,14 @@ public class mcSceneJsonController : MonoBehaviour
 
     public void onButtonClickParseChildren()
     {
-        pantryItemData.version = versionStr;
+        pantryItemData.versionStr = versionStr;
         pantryItemData.IngredientDataSet = dataSetStr;
+
+
+        System.Guid _GUID_V = System.Guid.NewGuid();
+        byte[] gb_v = _GUID_V.ToByteArray();
+        UInt64 versionId = System.BitConverter.ToUInt64(gb_v, 0);
+        pantryItemData.versionId = versionId;
 
         foreach(GameObject go in bundleList)
         {

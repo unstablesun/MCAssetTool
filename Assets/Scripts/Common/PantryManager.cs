@@ -68,7 +68,8 @@ namespace MasterChef.data
         public class ItemData
         {
             public string IngredientDataSet { get; set; }
-            public string version { get; set; }
+            public string versionStr { get; set; }
+            public UInt64 versionId { get; set; }
 
             public List<ItemRecord> ItemList { get; set; }
 
