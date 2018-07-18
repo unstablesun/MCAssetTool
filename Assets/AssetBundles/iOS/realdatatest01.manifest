@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 100375854
+CRC: 510974840
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eb904fe4bbe8c35073209f0e0004fe01
+    Hash: b5f180f9d5e429c06a273fd9f9dda849
   TypeTreeHash:
     serializedVersion: 2
     Hash: 485e1b759408afe01667ebec3625c3c3
@@ -17,6 +17,5 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Resources/AssetCreationPack1/scene_bg_table.png
-- Assets/AssetBundleArt/challengeData001/challengeImage0007.jpg
 - Assets/Resources/challengeEventData1.json
 Dependencies: []
