@@ -48,7 +48,6 @@ namespace MasterChef.data
 
         public class ItemRecord:BaseItemData
         {
-            //public string guid;
             public uint Id;
             public string IsPrize;
             public string NameLabel;
