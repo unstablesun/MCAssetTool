@@ -560,6 +560,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: CT_FB
     4: CT_FB
+    7: CT_FB
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
@@ -647,9 +648,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: Template_2D
-  organizationId: 
+  cloudProjectId: f0410f11-b899-40b3-95e7-33302348c160
+  projectName: 'Master Chef: Plate Planner'
+  organizationId: ac_animocabrands
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

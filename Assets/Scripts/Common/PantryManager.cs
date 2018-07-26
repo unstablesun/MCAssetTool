@@ -48,7 +48,7 @@ namespace MasterChef.data
 
         public class ItemRecord:BaseItemData
         {
-            public uint Id;
+            public Int32 Id;
             public string IsPrize;
             public string NameLabel;
             public string DescLabel;
@@ -69,7 +69,7 @@ namespace MasterChef.data
         {
             public string IngredientDataSet { get; set; }
             public string versionStr { get; set; }
-            public UInt64 versionId { get; set; }
+            public Int64 versionId { get; set; }
 
             public List<ItemRecord> ItemList { get; set; }
 

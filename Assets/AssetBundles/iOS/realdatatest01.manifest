@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 510974840
+CRC: 2978145785
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b5f180f9d5e429c06a273fd9f9dda849
+    Hash: 85cb8a98b5d8a3fcf650b93c2f2762a3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 485e1b759408afe01667ebec3625c3c3
@@ -18,4 +18,5 @@ ClassTypes:
 Assets:
 - Assets/Resources/AssetCreationPack1/scene_bg_table.png
 - Assets/Resources/challengeEventData1.json
+- Assets/Resources/AssetChallengePack1/HotPot.png
 Dependencies: []

@@ -33,10 +33,9 @@ public class mcSceneJsonController : MonoBehaviour
         pantryItemData.versionStr = versionStr;
         pantryItemData.IngredientDataSet = dataSetStr;
 
-
         System.Guid _GUID_V = System.Guid.NewGuid();
         byte[] gb_v = _GUID_V.ToByteArray();
-        UInt64 versionId = System.BitConverter.ToUInt64(gb_v, 0);
+        Int64 versionId = System.BitConverter.ToInt64(gb_v, 0);
         pantryItemData.versionId = versionId;
 
         foreach(GameObject go in bundleList)
@@ -55,7 +54,7 @@ public class mcSceneJsonController : MonoBehaviour
 
                         System.Guid _GUID = System.Guid.NewGuid();
                         byte[] gb = _GUID.ToByteArray();
-                        uint newId = System.BitConverter.ToUInt32(gb, 0);
+                        Int32 newId = System.BitConverter.ToInt32(gb, 0);
 
                         pantryItemRecord.Id = newId;
                         pantryItemRecord.filename = jsonObj.name;

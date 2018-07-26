@@ -1667,15 +1667,15 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1273642555}
-    ActiveGameObject: {fileID: 1273642555}
+    - {fileID: 2127976813}
+    ActiveGameObject: {fileID: 2127976813}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 2127976813}
-    ActiveGameObject: {fileID: 2127976813}
+    - {fileID: 1273642555}
+    ActiveGameObject: {fileID: 1273642555}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -3380,7 +3380,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ee5d290a8f8f3407fa4dc2f4d584ec94, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e68c62ff327945a7942bf7fff52173a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
