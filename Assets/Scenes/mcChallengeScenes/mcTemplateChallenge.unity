@@ -496,6 +496,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1170194919180478, guid: 2b941807bc77c4801bae3146a17e0a26,
     type: 2}
   m_PrefabInternal: {fileID: 210721880}
+--- !u!1 &210721883 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1736258477917426, guid: 2b941807bc77c4801bae3146a17e0a26,
+    type: 2}
+  m_PrefabInternal: {fileID: 210721880}
 --- !u!1001 &334018416
 Prefab:
   m_ObjectHideFlags: 0
@@ -622,6 +627,10 @@ Prefab:
         type: 2}
       propertyPath: PlacementOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170194919180478, guid: 2b941807bc77c4801bae3146a17e0a26, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b941807bc77c4801bae3146a17e0a26, type: 2}
@@ -1660,15 +1669,8 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
-    - {fileID: 1900070955}
-    ActiveGameObject: {fileID: 1900070955}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 2127976813}
-    ActiveGameObject: {fileID: 2127976813}
+    - {fileID: 1273642556}
+    ActiveGameObject: {fileID: 1273642556}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -1681,29 +1683,8 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1409245898}
-    ActiveGameObject: {fileID: 1409245898}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 949139630}
-    ActiveGameObject: {fileID: 949139630}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1683526420}
-    ActiveGameObject: {fileID: 1683526420}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1438875405}
-    ActiveGameObject: {fileID: 1438875405}
+    - {fileID: 210721883}
+    ActiveGameObject: {fileID: 210721883}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -1716,6 +1697,20 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
+    - {fileID: 1438875405}
+    ActiveGameObject: {fileID: 1438875405}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 949139630}
+    ActiveGameObject: {fileID: 949139630}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 334018418}
     ActiveGameObject: {fileID: 334018418}
     GUIDsList: []
@@ -1723,8 +1718,8 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1210669401}
-    ActiveGameObject: {fileID: 1210669401}
+    - {fileID: 1683526420}
+    ActiveGameObject: {fileID: 1683526420}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -1737,8 +1732,36 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
+    - {fileID: 1683526421}
+    ActiveGameObject: {fileID: 1683526421}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1409245898}
+    ActiveGameObject: {fileID: 1409245898}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 2127976813}
+    ActiveGameObject: {fileID: 2127976813}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1900070955}
+    ActiveGameObject: {fileID: 1900070955}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1210669401}
+    ActiveGameObject: {fileID: 1210669401}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -1809,20 +1832,6 @@ MonoBehaviour:
   - list:
     - {fileID: 0}
     ActiveGameObject: {fileID: 0}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 336325994}
-    ActiveGameObject: {fileID: 336325994}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1882304027}
-    ActiveGameObject: {fileID: 1882304027}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2249,11 +2258,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1900070956}
     m_Modifications:
-    - target: {fileID: 114667186924180980, guid: 2b941807bc77c4801bae3146a17e0a26,
-        type: 2}
-      propertyPath: tagList.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -2344,25 +2348,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1170194919180478, guid: 2b941807bc77c4801bae3146a17e0a26, type: 2}
-      propertyPath: m_Name
-      value: PlacementObject
-      objectReference: {fileID: 0}
-    - target: {fileID: 114803046982743354, guid: 2b941807bc77c4801bae3146a17e0a26,
+    - target: {fileID: 224406641563775844, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: de3a6138677b14a96a1c1a97f2879da0,
-        type: 3}
-    - target: {fileID: 114667186924180980, guid: 2b941807bc77c4801bae3146a17e0a26,
-        type: 2}
-      propertyPath: tagList.Array.data[0].eTag
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 114667186924180980, guid: 2b941807bc77c4801bae3146a17e0a26,
-        type: 2}
-      propertyPath: tagList.Array.data[1].eTag
-      value: 20
+      propertyPath: m_AnchoredPosition.x
+      value: -165
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b941807bc77c4801bae3146a17e0a26, type: 2}
@@ -2375,6 +2364,11 @@ RectTransform:
 --- !u!1 &1273642555 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1170194919180478, guid: 2b941807bc77c4801bae3146a17e0a26,
+    type: 2}
+  m_PrefabInternal: {fileID: 1273642553}
+--- !u!1 &1273642556 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1736258477917426, guid: 2b941807bc77c4801bae3146a17e0a26,
     type: 2}
   m_PrefabInternal: {fileID: 1273642553}
 --- !u!1001 &1409245896
@@ -2757,6 +2751,10 @@ Prefab:
       propertyPath: PlacementOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1170194919180478, guid: 2b941807bc77c4801bae3146a17e0a26, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b941807bc77c4801bae3146a17e0a26, type: 2}
   m_IsPrefabParent: 0
@@ -2768,6 +2766,11 @@ RectTransform:
 --- !u!1 &1683526420 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1170194919180478, guid: 2b941807bc77c4801bae3146a17e0a26,
+    type: 2}
+  m_PrefabInternal: {fileID: 1683526418}
+--- !u!1 &1683526421 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1736258477917426, guid: 2b941807bc77c4801bae3146a17e0a26,
     type: 2}
   m_PrefabInternal: {fileID: 1683526418}
 --- !u!1 &1783380256
@@ -3361,6 +3364,7 @@ MonoBehaviour:
   IsRequired: 1
   PlacementOrder: 0
   tagList: []
+  OffetMarker: {fileID: 0}
 --- !u!114 &2127976816
 MonoBehaviour:
   m_ObjectHideFlags: 0

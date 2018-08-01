@@ -10,4 +10,5 @@ public class mcPlatingJsonObj : MonoBehaviour
     public bool IsRequired = true;
     public int PlacementOrder = 0;
     public List<mcSearchTags> tagList = new List<mcSearchTags>();
+    public GameObject OffetMarker;
 }

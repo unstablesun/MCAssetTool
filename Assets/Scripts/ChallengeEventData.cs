@@ -24,6 +24,7 @@ namespace MasterChef.data
         public int placementOrder;
         public List<string> tagList;
         public Vector2 relativePos;
+        public Vector2 pinOffset;
     }
 
     public class ChallengeRecord

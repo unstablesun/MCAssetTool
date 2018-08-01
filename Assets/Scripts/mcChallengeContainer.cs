@@ -71,8 +71,6 @@ public class mcChallengeContainer : MonoBehaviour
         challengeEventData.challengeRecord.requirements = requirements;
 
 
-
-
         challengeEventData.challengeRecord.PlatingList = new List<PlatingRecord>();
 
 
@@ -88,11 +86,15 @@ public class mcChallengeContainer : MonoBehaviour
                 {
                     Vector2 xyPos = jsonObj.transform.localPosition;
 
+                    GameObject offsetMarker = jsonObj.OffetMarker;
+                    Vector2 pinOffset = offsetMarker.transform.localPosition;
+
                     Debug.Log("xyPos = " + xyPos.ToString());
 
 
                     PlatingRecord platingRecord = new PlatingRecord();
                     platingRecord.relativePos = xyPos;
+                    platingRecord.pinOffset = pinOffset;
                     platingRecord.tagList = new List<string>();
 
                     foreach (mcSearchTags st in jsonObj.tagList)

@@ -55,6 +55,7 @@ namespace MasterChef.data
             public string PriceLabel;
             public string CreationTime;
             public int Quantity;
+            public UInt16 Flags;
 
             //primary image
             public string filename;
