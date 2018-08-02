@@ -1,13 +1,13 @@
 ManifestFileVersion: 0
-CRC: 3998324998
+CRC: 1916517581
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: pantryitems001
       Dependencies: {}
     Info_1:
-      Name: realdatatest01
+      Name: mastertaglistbundle
       Dependencies: {}
     Info_2:
-      Name: mastertaglistbundle
+      Name: realdatatest01
       Dependencies: {}
