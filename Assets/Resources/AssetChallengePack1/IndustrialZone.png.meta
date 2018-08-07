@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0e68c62ff327945a7942bf7fff52173a
+guid: c3f669e6ad7614151b1e56b2f71ce5f3
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -73,12 +73,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ee2e45600899140519723d5b5fc65146
+    spriteID: 669ffe1bca28e49679cae00358db89db
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
   userData: 
-  assetBundleName: mcevent_2018-08-07_debug01
+  assetBundleName: 
   assetBundleVariant: 

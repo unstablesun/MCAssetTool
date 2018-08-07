@@ -35,16 +35,26 @@ public class mcChallengeContainer : MonoBehaviour
     public string challengeImageFilename;
     public string requirements;
 
-
+    public InputField EventTagINPUT;
+    public InputField EventOutPutCopy;
+    public Text MCEventOutPutFileName;
+    public Toggle ToggleLock;
 
     public ChallengeEventData challengeEventData;
 
+    private string DateISOString;
+
+    private string MCEventFileName;
 
 	void Start () 
     {
 
         challengeEventData = new ChallengeEventData();
         challengeEventData.challengeRecord = new ChallengeRecord();
+
+        DateISOString = System.DateTime.UtcNow.ToString("yyyy-MM-dd");
+
+        MCEventFileName = "MCEvent_" + DateISOString;
 
 	}
     void Update()
@@ -53,7 +63,7 @@ public class mcChallengeContainer : MonoBehaviour
 
 	public void onButtonClickedExportContainer () 
     {
-        challengeEventData.IngredientDataSet = dataSetStr;
+        challengeEventData.MCEventDataSet = dataSetStr;
         challengeEventData.version = versionStr;
 
         Image image = GetComponent<Image>();
@@ -127,8 +137,21 @@ public class mcChallengeContainer : MonoBehaviour
 
     public void SaveMasterList()
     {
+        if(ToggleLock.isOn == true)
+        {
+            MCEventFileName = MCEventOutPutFileName.text;
+        }
+        else
+        {
+            MCEventFileName = MCEventFileName + "_" + EventTagINPUT.text;
+
+            MCEventOutPutFileName.text = MCEventFileName;
+            EventOutPutCopy.text = MCEventFileName;
+
+        }
+
         var jsonString = JsonConvert.SerializeObject(challengeEventData);
-        string path = Application.dataPath + "/Resources/challengeEventData1.json";
+        string path = Application.dataPath + "/Resources/MCEventJsonData/" + MCEventFileName + ".json";
         File.WriteAllText(path, jsonString);
 
     }

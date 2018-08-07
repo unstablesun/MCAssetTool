@@ -46,7 +46,7 @@ namespace MasterChef.data
 
     public class ChallengeEventData
     {
-        public string IngredientDataSet { get; set; }
+        public string MCEventDataSet { get; set; }
         public string version { get; set; }
 
         public ChallengeRecord challengeRecord { get; set; }
