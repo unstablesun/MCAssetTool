@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2405043684
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 576c2579396c7759d6ce1a011f130272
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b474380d27eb4bc856799e9c585c4864
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/PlatingTables/scene_bg_table_dark.png
+- Assets/Resources/PlatingTables/scene_bg_table_wood.png
+- Assets/Resources/PlatingTables/scene_bg_table_old.png
+- Assets/Resources/PlatingTables/scene_bg_table.png
+Dependencies: []

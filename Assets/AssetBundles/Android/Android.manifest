@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4213244657
+CRC: 2391013094
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,8 +9,11 @@ AssetBundleManifest:
       Name: mastertaglistbundle
       Dependencies: {}
     Info_2:
-      Name: realdatatest01
+      Name: mcevent_2018-08-07_industrialzone
       Dependencies: {}
     Info_3:
-      Name: mcevent_2018-08-07_industrialzone
+      Name: mcevent_2018-08-07_buffet
+      Dependencies: {}
+    Info_4:
+      Name: platingtables
       Dependencies: {}
