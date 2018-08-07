@@ -26,6 +26,7 @@ public class mcSceneJsonObj : MonoBehaviour
     public int ItemQuantity = 5;
     public string ItemCreationTime = "2018-07-05"; //ISO 8601
 
+    public GameObject CenterOffset = null;
     public List<GameObject> extraImageList = null;
 
 	void Start () 

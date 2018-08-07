@@ -64,6 +64,10 @@ public class mcSceneJsonController : MonoBehaviour
                         pantryItemRecord.DescLabel = jsonObj.ItemDesc;
                         pantryItemRecord.CreationTime = jsonObj.ItemCreationTime;
                         pantryItemRecord.Quantity = jsonObj.ItemQuantity;
+
+                        Vector2 cp = jsonObj.CenterOffset.transform.localPosition;
+                        pantryItemRecord.CenterOffset = new Vector2(cp.x, cp.y);
+
                         pantryItemRecord.Flags = 0;
  
                         //Debug.Log("filename = " + jsonObj.name);
