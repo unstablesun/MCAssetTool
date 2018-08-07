@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1916517581
+CRC: 1201747788
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -10,4 +10,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_2:
       Name: realdatatest01
+      Dependencies: {}
+    Info_3:
+      Name: mcevent_2018-08-07_industrialzone
       Dependencies: {}

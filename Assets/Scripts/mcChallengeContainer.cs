@@ -39,6 +39,7 @@ public class mcChallengeContainer : MonoBehaviour
     public InputField EventOutPutCopy;
     public Text MCEventOutPutFileName;
     public Toggle ToggleLock;
+    public Text ExportStatusText;
 
     public ChallengeEventData challengeEventData;
 
@@ -153,6 +154,9 @@ public class mcChallengeContainer : MonoBehaviour
         var jsonString = JsonConvert.SerializeObject(challengeEventData);
         string path = Application.dataPath + "/Resources/MCEventJsonData/" + MCEventFileName + ".json";
         File.WriteAllText(path, jsonString);
+
+
+        ExportStatusText.text = "Export Complete!";
 
     }
 
