@@ -1369,12 +1369,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -129
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -317
+      value: -258
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -1834,7 +1834,7 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -198
+      value: -529
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -1979,6 +1979,22 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
+    - {fileID: 937971546}
+    ActiveGameObject: {fileID: 937971546}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 708730160}
+    - {fileID: 1649655161}
+    - {fileID: 1060654647}
+    ActiveGameObject: {fileID: 1649655161}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 1900070955}
     ActiveGameObject: {fileID: 1900070955}
     GUIDsList: []
@@ -2014,13 +2030,6 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 937971546}
-    ActiveGameObject: {fileID: 937971546}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
     - {fileID: 336325994}
     ActiveGameObject: {fileID: 336325994}
     GUIDsList: []
@@ -2044,13 +2053,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1654125296}
     ActiveGameObject: {fileID: 1654125296}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1649655161}
-    ActiveGameObject: {fileID: 1649655161}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2316,12 +2318,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -129
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -385
+      value: -326
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -2902,12 +2904,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -129
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -311
+      value: -252
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -3563,17 +3565,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSetStr: MCEvent_2018-08-07_Buffet
   versionStr: 0.0.1
-  title: Industrial Zone
-  style: Lunch
-  location: Vancouver
+  title: Dark Buffet
+  style: Dinner
+  location: Hong Kong
   cost: 100
   earn: 1000
-  descShort: Lunch in Stanely Park
-  descLong: Lunch in Stanely Park with a blanket
+  descShort: Late Night Buffet
+  descLong: Late Night Buffet
   time: 2018-08-07
   platingImageFilename: 
   challengeImageFilename: 
-  requirements: Make a Lunch, Make it Good...
+  requirements: Something Sweet
   EventTagINPUT: {fileID: 485146325}
   EventOutPutCopy: {fileID: 2125738512}
   MCEventOutPutFileName: {fileID: 1943024192}

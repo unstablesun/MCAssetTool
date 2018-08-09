@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2405043684
+CRC: 3890192841
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 576c2579396c7759d6ce1a011f130272
+    Hash: 4b154796ea4f7ef8f3133141380889b3
   TypeTreeHash:
     serializedVersion: 2
     Hash: b474380d27eb4bc856799e9c585c4864
@@ -17,5 +17,6 @@ Assets:
 - Assets/Resources/PlatingTables/scene_bg_table_dark.png
 - Assets/Resources/PlatingTables/scene_bg_table_wood.png
 - Assets/Resources/PlatingTables/scene_bg_table_old.png
+- Assets/Resources/PlatingTables/scene_bg_table_water.png
 - Assets/Resources/PlatingTables/scene_bg_table.png
 Dependencies: []

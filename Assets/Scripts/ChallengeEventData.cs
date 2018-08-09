@@ -40,6 +40,7 @@ namespace MasterChef.data
         public string platingImageFilename;
         public string challengeImageFilename;
         public string requirements;
+        public string idKey;
 
         public List<PlatingRecord> PlatingList { get; set; }
     }

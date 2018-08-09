@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3622755972
+CRC: 1977209966
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -16,4 +16,10 @@ AssetBundleManifest:
       Dependencies: {}
     Info_4:
       Name: platingtables
+      Dependencies: {}
+    Info_5:
+      Name: mcevent_2018-08-08_underthesea
+      Dependencies: {}
+    Info_6:
+      Name: mcevent_2018-08-08_dinningroom
       Dependencies: {}

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3738209963
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4aca9d1f8576ce1f4d58067dee40d868
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 485e1b759408afe01667ebec3625c3c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/MCEventJsonData/MCEvent_2018-08-08_UnderTheSea.json
+- Assets/Resources/AssetChallengePack1/mcEventSpash_UnderTheSea.png
+Dependencies: []
