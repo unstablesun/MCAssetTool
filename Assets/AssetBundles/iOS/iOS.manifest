@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3636254746
+CRC: 48683476
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -22,4 +22,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_6:
       Name: mcevent_2018-08-08_dinningroom
+      Dependencies: {}
+    Info_7:
+      Name: mastermanifestbundle
       Dependencies: {}

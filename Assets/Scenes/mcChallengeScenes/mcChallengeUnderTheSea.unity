@@ -1369,12 +1369,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -129
+      value: -26
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -258
+      value: -139
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -1989,6 +1989,24 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
+    - {fileID: 1649655161}
+    - {fileID: 1060654647}
+    - {fileID: 708730160}
+    ActiveGameObject: {fileID: 1649655161}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 937971546}
+    - {fileID: 1060654647}
+    - {fileID: 1654125296}
+    ActiveGameObject: {fileID: 937971546}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 1900070955}
     ActiveGameObject: {fileID: 1900070955}
     GUIDsList: []
@@ -1998,13 +2016,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1649655158}
     ActiveGameObject: {fileID: 1649655158}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1649655161}
-    ActiveGameObject: {fileID: 1649655161}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2033,13 +2044,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1060654647}
     ActiveGameObject: {fileID: 1060654647}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 937971546}
-    ActiveGameObject: {fileID: 937971546}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2318,12 +2322,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -129
+      value: -26
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -326
+      value: -207
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -2904,12 +2908,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -129
+      value: -26
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -252
+      value: -133
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
