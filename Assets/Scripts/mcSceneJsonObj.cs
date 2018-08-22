@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using MasterChef.data;
+using System;
 
 
 /*
@@ -16,6 +17,8 @@ public class mcSceneJsonObj : MonoBehaviour
     public bool IncludeInExport = true;
 
     public List<mcSearchTags> tagList = new List<mcSearchTags>();
+
+    public Int32 Id;
 
     public bool IsPrize = false;
     public bool IsSubImage = false;

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3859444465
+CRC: 23962087
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f883f5bbe16ce18d20df25dd95719889
+    Hash: 28647d95c7cde20a808953d82ed98c46
   TypeTreeHash:
     serializedVersion: 2
     Hash: 485e1b759408afe01667ebec3625c3c3
@@ -18,5 +18,5 @@ ClassTypes:
 Assets:
 - Assets/Resources/MCEventJsonData/MCEvent_2018-08-07_IndustrialZone.json
 - Assets/Resources/MCEventJsonData/MCEvent_2018-08-07_Debug01.json
-- Assets/Resources/AssetChallengePack1/mcEventSpash_IndustrialZone.png
+- Assets/Resources/AssetChallengePack1/mcEventSpash_IndustrialZone.jpg
 Dependencies: []

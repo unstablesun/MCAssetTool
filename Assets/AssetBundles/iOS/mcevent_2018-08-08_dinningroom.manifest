@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3885630177
+CRC: 3075993310
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d034842361bbf05f3946cddbfdcf5d40
+    Hash: 474e629105f20f8bb761f48b1ce518fb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 485e1b759408afe01667ebec3625c3c3
@@ -16,6 +16,6 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/Resources/AssetChallengePack1/mcEventSpash_DinningRoom.png
+- Assets/Resources/AssetChallengePack1/mcEventSpash_DinningRoom.jpg
 - Assets/Resources/MCEventJsonData/MCEvent_2018-08-08_DinningRoom.json
 Dependencies: []

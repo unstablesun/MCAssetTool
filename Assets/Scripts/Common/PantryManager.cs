@@ -61,8 +61,11 @@ namespace MasterChef.data
             //primary image
             public string filename;
 
-
+            //describes what this item is - can be found by usubg these tags
             public List<ItemTag> TagList { get; set; }
+
+
+            //deprecated
             public List<ItemImage> ImageList { get; set; }
 
         }

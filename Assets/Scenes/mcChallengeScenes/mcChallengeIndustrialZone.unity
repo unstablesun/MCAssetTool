@@ -480,7 +480,7 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -2190,7 +2190,7 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -2370,9 +2370,29 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
-    - {fileID: 720647975}
     - {fileID: 2094170147}
     ActiveGameObject: {fileID: 2094170147}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1916995236}
+    ActiveGameObject: {fileID: 1916995236}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1900070955}
+    ActiveGameObject: {fileID: 1900070955}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 2127976813}
+    ActiveGameObject: {fileID: 2127976813}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2388,14 +2408,6 @@ MonoBehaviour:
     - {fileID: 720647975}
     - {fileID: 2094170147}
     ActiveGameObject: {fileID: 720647975}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 214847169}
-    - {fileID: 1916995236}
-    ActiveGameObject: {fileID: 1916995236}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2503,20 +2515,6 @@ MonoBehaviour:
   - list:
     - {fileID: 336325994}
     ActiveGameObject: {fileID: 336325994}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1900070955}
-    ActiveGameObject: {fileID: 1900070955}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 2127976813}
-    ActiveGameObject: {fileID: 2127976813}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -4110,10 +4108,10 @@ RectTransform:
   - {fileID: 1649655157}
   - {fileID: 1654125295}
   - {fileID: 1210928212}
-  - {fileID: 837579307}
-  - {fileID: 1916995235}
-  - {fileID: 214847168}
   - {fileID: 2094170146}
+  - {fileID: 1916995235}
+  - {fileID: 837579307}
+  - {fileID: 214847168}
   - {fileID: 720647974}
   m_Father: {fileID: 1243010423}
   m_RootOrder: 2
@@ -4142,7 +4140,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 71c43c26beaf046e8864ae3f15bd734f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 477641b125b5d4a859a3b33ce183631d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4652,7 +4650,7 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -5005,7 +5003,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b364ad2aaa4554f0e8d6439d826e599d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51a26bacdd2c04f47a26d145dba5d725, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

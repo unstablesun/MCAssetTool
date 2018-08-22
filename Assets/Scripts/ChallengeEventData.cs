@@ -7,16 +7,15 @@ using Newtonsoft.Json.Serialization;
 
 namespace MasterChef.data
 {
-    /*
+    
     public class PrizeRecord
     {
         public string title;
         public string subTitle;
         public string diamondLevel;
         public string starLevel;
-        public string imageFilename;
     }
-    */
+
 
     public class PlatingRecord
     {
@@ -43,6 +42,7 @@ namespace MasterChef.data
         public string idKey;
 
         public List<PlatingRecord> PlatingList { get; set; }
+        public List<PrizeRecord> PrizeList { get; set; }
     }
 
     public class ChallengeEventData

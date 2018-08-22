@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 287486261
+CRC: 2204691581
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -25,4 +25,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_7:
       Name: mastermanifestbundle
+      Dependencies: {}
+    Info_8:
+      Name: mcevent_2018-08-16_snackcity
       Dependencies: {}

@@ -118,5 +118,36 @@ public class ManifestManager : MonoBehaviour
     }
 
 
+    [MenuItem("Pantry/Generate Pantry Item IDs (Editor)")]
+    private static void GeneratePantryItemIDs()
+    {
+
+        GameObject selectedGameObject = Selection.activeGameObject;
+
+        Debug.Log("PANTRY EDIT selectedGameObject = " + selectedGameObject.name);
+
+
+        Component[] kids = selectedGameObject.GetComponentsInChildren<mcSceneJsonObj>();
+
+        for (int i = 0; i < kids.Length; i++)
+        {
+            Debug.Log(".... = " + kids[i].name);
+
+            System.Guid _GUID = System.Guid.NewGuid();
+            byte[] gb = _GUID.ToByteArray();
+            Int32 newId = System.BitConverter.ToInt32(gb, 0);
+
+
+            mcSceneJsonObj script = kids[i].GetComponent<mcSceneJsonObj>();
+
+            script.Id = newId;
+        }
+
+
+
+    }
+
+
+
 }
 
