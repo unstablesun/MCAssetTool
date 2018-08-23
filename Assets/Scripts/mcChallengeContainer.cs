@@ -22,7 +22,6 @@ public class mcChallengeContainer : MonoBehaviour
     public string dataSetStr = "base";
     public string versionStr = "0.0.0";
 
-
     public string title;
     public string style;
     public string location;
@@ -35,12 +34,17 @@ public class mcChallengeContainer : MonoBehaviour
     public string challengeImageFilename;
     public string requirements;
 
+    public List<PrizeRecord> Prizes = null;
+
     public InputField EventTagINPUT;
     public InputField EventOutPutCopy;
     public Text MCEventOutPutFileName;
     public Toggle ToggleLock;
     public Text ExportStatusText;
 
+
+
+    [HideInInspector]
     public ChallengeEventData challengeEventData;
 
     private string DateISOString;
@@ -81,9 +85,21 @@ public class mcChallengeContainer : MonoBehaviour
         challengeEventData.challengeRecord.time = time;
         challengeEventData.challengeRecord.requirements = requirements;
 
+        //prizes
+        challengeEventData.challengeRecord.PrizeList = new List<PrizeRecord>();
+        if(Prizes != null)
+        {
+            foreach(PrizeRecord pR in Prizes)
+            {
+                challengeEventData.challengeRecord.PrizeList.Add(pR);
+            }
+        }
 
+
+
+
+        //Plating list
         challengeEventData.challengeRecord.PlatingList = new List<PlatingRecord>();
-
 
         foreach (Transform childObj in transform)
         {

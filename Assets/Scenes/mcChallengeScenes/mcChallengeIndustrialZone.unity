@@ -2370,6 +2370,13 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
+    - {fileID: 1900070955}
+    ActiveGameObject: {fileID: 1900070955}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 2094170147}
     ActiveGameObject: {fileID: 2094170147}
     GUIDsList: []
@@ -2379,13 +2386,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1916995236}
     ActiveGameObject: {fileID: 1916995236}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1900070955}
-    ActiveGameObject: {fileID: 1900070955}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -4178,6 +4178,15 @@ MonoBehaviour:
   platingImageFilename: 
   challengeImageFilename: 
   requirements: Cold Beer
+  Prizes:
+  - type: 0
+    itemID: 1086502585
+    amount: 0
+    prizeLevel: 3
+  - type: 1
+    itemID: 0
+    amount: 10
+    prizeLevel: 3
   EventTagINPUT: {fileID: 485146325}
   EventOutPutCopy: {fileID: 2125738512}
   MCEventOutPutFileName: {fileID: 1943024192}

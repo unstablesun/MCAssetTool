@@ -1826,6 +1826,13 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
+    - {fileID: 1900070955}
+    ActiveGameObject: {fileID: 1900070955}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 1060654646}
     ActiveGameObject: {fileID: 1060654646}
     GUIDsList: []
@@ -1835,13 +1842,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1060654647}
     ActiveGameObject: {fileID: 1060654647}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1900070955}
-    ActiveGameObject: {fileID: 1900070955}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -3258,6 +3258,15 @@ MonoBehaviour:
   platingImageFilename: 
   challengeImageFilename: 
   requirements: snack
+  Prizes:
+  - type: 0
+    itemID: 611569580
+    amount: 0
+    prizeLevel: 3
+  - type: 1
+    itemID: 0
+    amount: 50
+    prizeLevel: 3
   EventTagINPUT: {fileID: 485146325}
   EventOutPutCopy: {fileID: 2125738512}
   MCEventOutPutFileName: {fileID: 1943024192}

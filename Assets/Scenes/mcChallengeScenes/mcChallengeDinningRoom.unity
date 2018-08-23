@@ -4217,6 +4217,15 @@ MonoBehaviour:
   platingImageFilename: 
   challengeImageFilename: 
   requirements: Fish
+  Prizes:
+  - type: 0
+    itemID: -2071692611
+    amount: 
+    prizeLevel: 3
+  - type: 1
+    itemID: 
+    amount: 20
+    prizeLevel: 3
   EventTagINPUT: {fileID: 485146325}
   EventOutPutCopy: {fileID: 2125738512}
   MCEventOutPutFileName: {fileID: 1943024192}

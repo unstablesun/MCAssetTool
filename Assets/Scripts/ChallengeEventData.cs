@@ -4,16 +4,24 @@ using UnityEngine;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
+using System;
 
 namespace MasterChef.data
 {
-    
+    public enum PrizeType
+    {
+        pantryItem = 0,
+        diamonds = 1,
+        coins = 2,
+    }
+
+    [System.Serializable]
     public class PrizeRecord
     {
-        public string title;
-        public string subTitle;
-        public string diamondLevel;
-        public string starLevel;
+        public PrizeType type;
+        public Int32 itemID;
+        public int amount;
+        public int prizeLevel;
     }
 
 
