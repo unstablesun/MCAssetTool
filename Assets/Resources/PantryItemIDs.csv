@@ -1,0 +1,59 @@
+Name,ID,Date,Price,Currency,Quantity,File
+Candle,-1342792844,2018-07-05,1000,coins,5,accessory_candle_tealight.png
+Carrots,-1284837190,2018-08-23,1000,coins,5,accessory_carrots.png
+Cutting Board,-1085924213,2018-07-05,1000,coins,5,accessory_cheeseboard.png
+Green Beans,-1085619494,2018-07-05,1000,coins,5,accessory_greenbeans.png
+Green Peas,-692152407,2018-07-05,1000,coins,5,accessory_greenpeas.png
+Lettuce,1239768300,2018-07-05,1000,coins,5,accessory_lettucebed.png
+Lettuce 2,-619741036,2018-07-05,1000,coins,5,accessory_lettucepiece.png
+Pepper,-1019664083,2018-07-05,1000,coins,5,accessory_peppermill.png
+Place Mat 1,812825459,2018-07-05,1000,coins,5,accessory_placemat_carbonblack.png
+Place Mat Blue,-189184406,2018-07-05,1000,coins,5,accessory_placemat_carbonblue.png
+Place Mat Red,1414122089,2018-07-05,1000,coins,5,accessory_placemat_carbonred.png
+Place Mat White,2199838,2018-07-05,1000,coins,5,accessory_placemat_carbonwhite.png
+Vase Blue,-924201193,2018-07-05,1000,coins,5,accessory_vase_creamer_blue.png
+Vase Red,753106504,2018-07-05,1000,coins,5,accessory_vase_creamer_red.png
+Blue Vase Flowers,1086502585,2018-07-05,1000,coins,5,accessory_vase_lilies_blue.png
+Red Vase Flowers,-1223884735,2018-07-05,1000,coins,5,accessory_vase_lilies_red.png
+Blue Vase Flower,736549592,2018-07-05,1000,coins,5,accessory_vase_lily_blue.png
+Red Vase Flower,-1031433516,2018-07-05,1000,coins,5,accessory_vase_lily_red.png
+Loaf,1943538537,2018-07-05,1000,coins,5,appt_bread.png
+Lemon,-864286618,2018-08-23,1000,coins,5,appt_lemon.png
+Lemon Slice,791800047,2018-07-05,1000,coins,5,appt_lemonslice.png
+Beer,814897366,2018-07-05,1000,coins,5,beverage_beer_ipa.png
+Bellini,484976286,2018-07-05,1000,coins,5,beverage_bellini.png
+Tea 1,1487508210,2018-07-05,1000,coins,5,beverage_tea_bluefloral.png
+Tea 2,-383079969,2018-07-05,1000,coins,5,beverage_tea_bluepolkadots.png
+Tea 3,1940500786,2018-07-05,1000,coins,5,beverage_tea_goldfloral.png
+Tea 4,1971386259,2018-07-05,1000,coins,5,beverage_tea_red.png
+Tea 5,-2071692611,2018-07-05,1000,coins,5,beverage_tea_white.png
+White Wine,-642516619,2018-07-05,1000,coins,5,beverage_wine_white.png
+Ice Cream Cake,2137929869,2018-07-05,1000,coins,5,dessert_cake.png
+Cookie,411842094,2018-07-05,1000,coins,5,dessert_cookie_1.png
+Cookie 2,-1761767097,2018-07-05,1000,coins,5,dessert_cookie_2.png
+Dounut 1,-1202178301,2018-07-05,1000,coins,5,dessert_donut_chocolateglaze.png
+Dounut 2,1128777049,2018-07-05,1000,coins,5,dessert_donut_plain.png
+Dounut 3,-8502349,2018-07-05,1000,coins,5,dessert_donut_strawberryglaze.png
+Ice Cream1,-1824833728,2018-07-05,1000,coins,5,dessert_icecream_chocolate.png
+Ice Cream2,1474717336,2018-07-05,1000,coins,5,dessert_icecream_vanilla.png
+Grilled Chicken,611569580,2018-07-05,1000,coins,5,main_chicken_grilled.png
+Chicken Meal 1,-1336664801,2018-07-05,1000,coins,5,main_chicken_meal.png
+Fishy Chicken,415217969,2018-07-05,1000,coins,5,main_fish_baked.png
+Stack 1,1748967085,2018-07-05,1000,coins,5,main_pancakes_butter.png
+Stack 2,-1490490704,2018-07-05,1000,coins,5,main_pancakes_plain.png
+NameID,1436864849,2018-07-05,1000,coins,5,main_pancakes_syrup.png
+Pizza 1,363423571,2018-07-05,1000,coins,5,main_pizza_cheese.png
+Pizza 2,1767669469,2018-07-05,1000,coins,5,main_pizza_pepperoni.png
+Pizza 3,952527507,2018-07-05,1000,coins,5,main_pizza_pepperoniolives.png
+Dinner Plate 1,-658918522,2018-07-05,1000,coins,5,plate_greeknavy.png
+Dinner Plate 2,579143,2018-07-05,1000,coins,5,plate_greekwhite.png
+Dinner Plate 3,-1172211846,2018-07-05,1000,coins,5,plate_navy.png
+Dinner Plate 4,-122438643,2018-07-05,1000,coins,5,plate_white.png
+Fork,-157148376,2018-07-05,1000,coins,5,setting_fork.png
+Knife,-1788686585,2018-07-05,1000,coins,5,setting_knife.png
+Spoon,-652497658,2018-07-05,1000,coins,5,setting_spoon.png
+Water,-501792614,2018-07-05,1000,coins,5,beverage_water.png
+WaterLemon,-1289269919,2018-07-05,1000,coins,5,beverage_waterlemon.png
+Banana Cream Pie,-1252244632,2018-07-05,1000,coins,5,dessert_pie_lemonmeringue.png
+PumpkinPie,506210419,2018-07-05,1000,coins,5,dessert_pie_pumpkin.png
+Spaghetti,778562650,2018-07-05,1000,diamonds,5,main_pasta_spaghetti.png

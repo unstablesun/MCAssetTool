@@ -126,7 +126,20 @@ public class ManifestManager : MonoBehaviour
 
         Debug.Log("PANTRY EDIT selectedGameObject = " + selectedGameObject.name);
 
+        foreach (Transform child in selectedGameObject.transform)
+        {
+            print("Foreach loop: " + child);
 
+            System.Guid _GUID = System.Guid.NewGuid();
+            byte[] gb = _GUID.ToByteArray();
+            Int32 newId = System.BitConverter.ToInt32(gb, 0);
+
+            mcSceneJsonObj script = child.GetComponent<mcSceneJsonObj>();
+
+            script.Id = newId;
+        }
+
+        /*
         Component[] kids = selectedGameObject.GetComponentsInChildren<mcSceneJsonObj>();
 
         for (int i = 0; i < kids.Length; i++)
@@ -141,10 +154,36 @@ public class ManifestManager : MonoBehaviour
             mcSceneJsonObj script = kids[i].GetComponent<mcSceneJsonObj>();
 
             script.Id = newId;
+
+
         }
+        */
 
 
 
+
+    }
+
+    [MenuItem("Pantry/Pantry Item SetDate String (Editor)")]
+    private static void PantryItemSetDateString()
+    {
+        GameObject selectedGameObject = Selection.activeGameObject;
+        mcSceneJsonObj script = selectedGameObject.GetComponent<mcSceneJsonObj>();
+
+        script.ItemCreationTime = System.DateTime.UtcNow.ToString("yyyy-MM-dd");
+    }
+
+    [MenuItem("Pantry/Pantry Item ResetID (Editor)")]
+    private static void PantryItemSetResetID()
+    {
+        GameObject selectedGameObject = Selection.activeGameObject;
+        mcSceneJsonObj script = selectedGameObject.GetComponent<mcSceneJsonObj>();
+
+        System.Guid _GUID = System.Guid.NewGuid();
+        byte[] gb = _GUID.ToByteArray();
+        Int32 newId = System.BitConverter.ToInt32(gb, 0);
+
+        script.Id = newId;
     }
 
 

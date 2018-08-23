@@ -30,6 +30,15 @@ public class mcSceneJsonController : MonoBehaviour
 
     public void onButtonClickParseChildren()
     {
+
+
+        string path = "Assets/Resources/PantryItemIDs.csv";
+        if (File.Exists(path) == true)
+        {
+            File.Delete(path);
+        }
+
+
         pantryItemData.versionStr = versionStr;
         pantryItemData.IngredientDataSet = dataSetStr;
 
@@ -67,6 +76,7 @@ public class mcSceneJsonController : MonoBehaviour
                         pantryItemRecord.DescLabel = jsonObj.ItemDesc;
                         pantryItemRecord.CreationTime = jsonObj.ItemCreationTime;
                         pantryItemRecord.Quantity = jsonObj.ItemQuantity;
+                        pantryItemRecord.PurchaseCurrency = (int)jsonObj.PurchaceCurrency;
 
                         Vector2 cp = jsonObj.CenterOffset.transform.localPosition;
                         pantryItemRecord.CenterOffset = new Vector2(cp.x, cp.y);
@@ -95,6 +105,9 @@ public class mcSceneJsonController : MonoBehaviour
 
         SaveMasterList();
 
+        WritePantryItemIDs();
+
+
     }
 
     public void SaveMasterList()
@@ -104,5 +117,36 @@ public class mcSceneJsonController : MonoBehaviour
         File.WriteAllText(path, jsonString);
 
     }
+
+
+
+
+    public void WritePantryItemIDs()
+    {
+        
+        string path = "Assets/Resources/PantryItemIDs.csv";
+        StreamWriter writer = new StreamWriter(path, false);
+
+        writer.WriteLine("Name,ID,Date,Price,Currency,Quantity,File");
+
+
+
+        //loop
+        foreach (PantryManager.ItemRecord iR in pantryItemData.ItemList)
+        {
+            string purchaseType = "coins";
+            if (iR.PurchaseCurrency == (int)PantryManager.PurchaseCurrency.diamonds)
+                purchaseType = "diamonds";
+
+
+            writer.WriteLine(iR.NameLabel + "," + iR.Id + "," + iR.CreationTime + "," + iR.PriceLabel + "," + purchaseType + "," + iR.Quantity + "," + iR.filename);
+        }
+
+        //writer.WriteLine(" ");
+ 
+        writer.Close();
+    }
+
+
 
 }

@@ -27,6 +27,13 @@ namespace MasterChef.data
 {
     public class PantryManager : MonoBehaviour
     {
+
+        public enum PurchaseCurrency
+        {
+            coins = 0,
+            diamonds = 1,
+        }
+
         public class BaseItemData
         {
             
@@ -55,6 +62,7 @@ namespace MasterChef.data
             public string PriceLabel;
             public string CreationTime;
             public int Quantity;
+            public int PurchaseCurrency;
             public Vector2 CenterOffset;
             public UInt16 Flags;
 
@@ -99,16 +107,16 @@ namespace MasterChef.data
         {
             s_instance = this;
 
-            StartCoroutine(LoadPantryItemDataAsync());
+            //StartCoroutine(LoadPantryItemDataAsync());
         }
 
 
         void Update()
         {
-            if (loadPending == true)
-            {
-                loadPending = LoadPantryItemJsonData();
-            }
+            //if (loadPending == true)
+            //{
+            //    loadPending = LoadPantryItemJsonData();
+            //}
         }
 
 
@@ -215,7 +223,6 @@ namespace MasterChef.data
             }
 
         }
-
 
     }
 }

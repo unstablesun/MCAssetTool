@@ -230,6 +230,16 @@ Prefab:
       propertyPath: ItemName
       value: Chicken Meal 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1336664801
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -387,6 +397,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 166080986}
+--- !u!1 &206052368 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1110198367}
 --- !u!1001 &220111392
 Prefab:
   m_ObjectHideFlags: 0
@@ -519,6 +534,16 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: -20
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -924201193
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -648,6 +673,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Tea 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -383079969
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -779,6 +814,16 @@ Prefab:
       propertyPath: ItemName
       value: Red Vase Flower
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1031433516
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -908,6 +953,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Ice Cream Cake
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 2137929869
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -1039,6 +1094,16 @@ Prefab:
       propertyPath: ItemName
       value: Dinner Plate 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -122438643
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -1047,6 +1112,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 302700830}
+--- !u!1 &314740975 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1121668958}
 --- !u!1001 &342966748
 Prefab:
   m_ObjectHideFlags: 0
@@ -1168,6 +1238,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: PumpkinPie
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 506210419
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -1299,6 +1379,16 @@ Prefab:
       propertyPath: ItemName
       value: Dinner Plate 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -658918522
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -1307,6 +1397,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 346472652}
+--- !u!1 &362962086 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 2127621928}
 --- !u!1 &364025328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,17 +1581,22 @@ Prefab:
       propertyPath: ItemName
       value: Green Beans
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1085619494
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &386419859 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 386419858}
---- !u!1 &386419860 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 386419858}
 --- !u!1001 &400696721
@@ -1621,6 +1721,16 @@ Prefab:
       propertyPath: ItemName
       value: Blue Vase Flowers
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1086502585
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -1739,6 +1849,16 @@ Prefab:
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
       propertyPath: IncludeInExport
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 2031296593
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1870,6 +1990,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Tea 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -2071692611
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -2082,6 +2212,16 @@ Prefab:
       propertyPath: ItemName
       value: Bellini
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 484976286
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -2090,6 +2230,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 465823793}
+--- !u!1 &532497175 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1854845166}
+--- !u!1 &538338481 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 416523832}
 --- !u!1001 &561818765
 Prefab:
   m_ObjectHideFlags: 0
@@ -2211,6 +2361,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Dounut 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1128777049
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -2342,6 +2502,16 @@ Prefab:
       propertyPath: ItemName
       value: Place Mat White
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 2199838
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -2471,6 +2641,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Lemon Slice
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 791800047
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -2602,6 +2782,16 @@ Prefab:
       propertyPath: ItemName
       value: Tea 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1971386259
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -2658,7 +2848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8344099, g: 0.7685564, b: 0.9528302, a: 1}
+  m_Color: {r: 0.8472026, g: 0.76862746, b: 0.9529412, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2795,6 +2985,16 @@ Prefab:
       propertyPath: ItemName
       value: Dounut 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -8502349
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -2924,6 +3124,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Place Mat Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1414122089
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -3149,6 +3359,16 @@ Prefab:
       propertyPath: ItemName
       value: Blue Vase Flower
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 736549592
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -3278,6 +3498,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Cookie 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1761767097
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -3409,6 +3639,16 @@ Prefab:
       propertyPath: ItemName
       value: Tea 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1487508210
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -3539,6 +3779,16 @@ Prefab:
       propertyPath: ItemName
       value: Dinner Plate 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 579143
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -3664,6 +3914,21 @@ Prefab:
       propertyPath: ItemName
       value: Carrots
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: ItemCreationTime
+      value: 2018-08-23
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1284837190
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -3672,11 +3937,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 744649336}
---- !u!1 &744649338 stripped
+--- !u!1 &759246875 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
-  m_PrefabInternal: {fileID: 744649336}
+  m_PrefabInternal: {fileID: 346472652}
 --- !u!1001 &760715284
 Prefab:
   m_ObjectHideFlags: 0
@@ -3798,6 +4063,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Place Mat 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 812825459
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -3924,17 +4199,22 @@ Prefab:
       propertyPath: ItemName
       value: Green Peas
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -692152407
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &761977650 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 761977649}
---- !u!1 &761977651 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 761977649}
 --- !u!1 &787516188
@@ -4116,6 +4396,16 @@ Prefab:
       propertyPath: ItemName
       value: Stack 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1490490704
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -4246,6 +4536,16 @@ Prefab:
       propertyPath: ItemName
       value: Ice Cream1
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1824833728
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -4254,6 +4554,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 790156193}
+--- !u!1 &822329071 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 302700830}
+--- !u!1 &829484212 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1419502192}
 --- !u!1001 &843322800
 Prefab:
   m_ObjectHideFlags: 0
@@ -4375,6 +4685,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Dinner Plate 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1172211846
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -4501,6 +4821,16 @@ Prefab:
       propertyPath: ItemName
       value: Stack 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1748967085
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -4509,6 +4839,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 910493845}
+--- !u!1 &931374784 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 843322800}
 --- !u!1001 &947721063
 Prefab:
   m_ObjectHideFlags: 0
@@ -4630,6 +4965,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Tea 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1940500786
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -4760,6 +5105,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Vase Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 753106504
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -4926,6 +5281,16 @@ Prefab:
       propertyPath: ItemName
       value: Lettuce
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1239768300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -5078,64 +5443,36 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
-    - {fileID: 166080986}
-    ActiveGameObject: {fileID: 166080986}
+    - {fileID: 1713981262}
+    ActiveGameObject: {fileID: 1713981262}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 604497852}
-    ActiveGameObject: {fileID: 604497852}
+    - {fileID: 1587756557}
+    ActiveGameObject: {fileID: 1587756557}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1631030356}
-    ActiveGameObject: {fileID: 1631030356}
+    - {fileID: 1636571614}
+    ActiveGameObject: {fileID: 1636571614}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 2108616099}
-    ActiveGameObject: {fileID: 2108616099}
+    - {fileID: 1433938249}
+    ActiveGameObject: {fileID: 1433938249}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
+    - {fileID: 1692205236}
+    ActiveGameObject: {fileID: 1692205236}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -5148,99 +5485,127 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 364025328}
-    ActiveGameObject: {fileID: 364025328}
+    - {fileID: 362962086}
+    ActiveGameObject: {fileID: 362962086}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 761977651}
-    ActiveGameObject: {fileID: 761977651}
+    - {fileID: 206052368}
+    ActiveGameObject: {fileID: 206052368}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 386419860}
-    ActiveGameObject: {fileID: 386419860}
+    - {fileID: 532497175}
+    ActiveGameObject: {fileID: 532497175}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1934491636}
-    ActiveGameObject: {fileID: 1934491636}
+    - {fileID: 822329071}
+    ActiveGameObject: {fileID: 822329071}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 744649338}
-    ActiveGameObject: {fileID: 744649338}
+    - {fileID: 931374784}
+    ActiveGameObject: {fileID: 931374784}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1462409112}
-    ActiveGameObject: {fileID: 1462409112}
+    - {fileID: 1515432042}
+    ActiveGameObject: {fileID: 1515432042}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1039984546}
-    ActiveGameObject: {fileID: 1039984546}
+    - {fileID: 759246875}
+    ActiveGameObject: {fileID: 759246875}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1909230976}
-    ActiveGameObject: {fileID: 1909230976}
+    - {fileID: 1083438815}
+    ActiveGameObject: {fileID: 1083438815}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1462409113}
-    ActiveGameObject: {fileID: 1462409113}
+    - {fileID: 314740975}
+    ActiveGameObject: {fileID: 314740975}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1751222275}
-    ActiveGameObject: {fileID: 1751222275}
+    - {fileID: 1781414111}
+    ActiveGameObject: {fileID: 1781414111}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
+    - {fileID: 1740583429}
+    ActiveGameObject: {fileID: 1740583429}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 135159388}
-    ActiveGameObject: {fileID: 135159388}
+    - {fileID: 1763755174}
+    ActiveGameObject: {fileID: 1763755174}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 2054699622}
-    ActiveGameObject: {fileID: 2054699622}
+    - {fileID: 1928429395}
+    ActiveGameObject: {fileID: 1928429395}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 0}
-    ActiveGameObject: {fileID: 0}
+    - {fileID: 1890757949}
+    ActiveGameObject: {fileID: 1890757949}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1733350776}
+    ActiveGameObject: {fileID: 1733350776}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1603767124}
+    ActiveGameObject: {fileID: 1603767124}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 829484212}
+    ActiveGameObject: {fileID: 829484212}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 538338481}
+    ActiveGameObject: {fileID: 538338481}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -5278,6 +5643,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1083438815 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1352677743}
 --- !u!1001 &1104485613
 Prefab:
   m_ObjectHideFlags: 0
@@ -5399,6 +5769,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Dounut 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1202178301
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -5525,6 +5905,16 @@ Prefab:
       propertyPath: ItemName
       value: Knife
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1788686585
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -5644,6 +6034,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Pizza 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1767669469
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -5775,6 +6175,16 @@ Prefab:
       propertyPath: ItemName
       value: Ice Cream2
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1474717336
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -5899,6 +6309,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Pepper
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1019664083
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -6025,6 +6445,16 @@ Prefab:
       propertyPath: ItemName
       value: Fishy Chicken
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 415217969
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -6149,6 +6579,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Grilled Chicken
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 611569580
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -6280,6 +6720,16 @@ Prefab:
       propertyPath: ItemName
       value: Beer
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 814897366
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -6400,6 +6850,16 @@ Prefab:
       propertyPath: ItemName
       value: Pizza 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 952527507
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -6518,6 +6978,16 @@ Prefab:
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
       propertyPath: IncludeInExport
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -581571386
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6650,6 +7120,16 @@ Prefab:
       propertyPath: ItemName
       value: Place Mat Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -189184406
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -6658,6 +7138,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1428172594}
+--- !u!1 &1433938249 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1616483017}
 --- !u!1001 &1438489174
 Prefab:
   m_ObjectHideFlags: 0
@@ -6779,6 +7264,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Cookie
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 411842094
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -6910,22 +7405,27 @@ Prefab:
       propertyPath: ItemName
       value: Candle
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1342792844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: IsPrize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &1462409111 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1462409110}
---- !u!1 &1462409112 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1462409110}
---- !u!1 &1462409113 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1688140097871622, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1462409110}
 --- !u!1001 &1488395086
@@ -7050,6 +7550,16 @@ Prefab:
       propertyPath: tagList.Array.data[1].eTag
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1289269919
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -7058,6 +7568,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1488395086}
+--- !u!1 &1515432042 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 693553878}
 --- !u!1001 &1573137833
 Prefab:
   m_ObjectHideFlags: 0
@@ -7170,6 +7685,21 @@ Prefab:
       propertyPath: ItemName
       value: Pizza 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SetID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 363423571
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -7178,6 +7708,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1573137833}
+--- !u!1 &1587756557 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851487583}
+--- !u!1 &1603767124 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1250183701}
 --- !u!1001 &1616483017
 Prefab:
   m_ObjectHideFlags: 0
@@ -7300,6 +7840,16 @@ Prefab:
       propertyPath: ItemName
       value: Banana Cream Pie
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1252244632
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -7346,6 +7896,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1636571614 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 342966748}
+--- !u!1 &1692205236 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1488395086}
+--- !u!1 &1713981262 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 606125521}
 --- !u!1001 &1721317379
 Prefab:
   m_ObjectHideFlags: 0
@@ -7468,6 +8033,16 @@ Prefab:
       propertyPath: ItemName
       value: Red Vase Flowers
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1223884735
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -7476,6 +8051,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1721317379}
+--- !u!1 &1733350776 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 69955696}
+--- !u!1 &1740583429 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 2143696509}
 --- !u!1001 &1751222273
 Prefab:
   m_ObjectHideFlags: 0
@@ -7593,6 +8178,16 @@ Prefab:
       propertyPath: ItemName
       value: Lettuce 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -619741036
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -7601,11 +8196,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1751222273}
---- !u!1 &1751222275 stripped
+--- !u!1 &1763755174 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
-  m_PrefabInternal: {fileID: 1751222273}
+  m_PrefabInternal: {fileID: 788272043}
+--- !u!1 &1781414111 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1573137833}
 --- !u!1001 &1844669578
 Prefab:
   m_ObjectHideFlags: 0
@@ -7727,6 +8327,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -501792614
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -7852,6 +8462,31 @@ Prefab:
         type: 2}
       propertyPath: tagList.Array.data[1].eTag
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: ItemName
+      value: Spaghetti
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: ItemDesc
+      value: Spaghetti and meatballs
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: PurchaceCurrency
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 778562650
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -7983,6 +8618,16 @@ Prefab:
       propertyPath: ItemName
       value: Fork
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -157148376
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -7991,6 +8636,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1854845166}
+--- !u!1 &1890757949 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+    type: 2}
+  m_PrefabInternal: {fileID: 1242612369}
 --- !u!1001 &1909230974
 Prefab:
   m_ObjectHideFlags: 0
@@ -8096,11 +8746,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1909230974}
---- !u!1 &1909230976 stripped
+--- !u!1 &1928429395 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
-  m_PrefabInternal: {fileID: 1909230974}
+  m_PrefabInternal: {fileID: 910493845}
 --- !u!1001 &1934491634
 Prefab:
   m_ObjectHideFlags: 0
@@ -8218,17 +8868,22 @@ Prefab:
       propertyPath: ItemName
       value: Cutting Board
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -1085924213
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &1934491635 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1934491634}
---- !u!1 &1934491636 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1934491634}
 --- !u!1001 &1943034698
@@ -8352,6 +9007,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: Loaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1943538537
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -8483,6 +9148,21 @@ Prefab:
       propertyPath: ItemName
       value: Lemon
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: ItemCreationTime
+      value: 2018-08-23
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -864286618
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -8612,6 +9292,16 @@ Prefab:
         type: 2}
       propertyPath: ItemName
       value: White Wine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -642516619
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -8910,6 +9600,16 @@ Prefab:
       propertyPath: ItemName
       value: Spoon
       objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: -652497658
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
   m_IsPrefabParent: 0
@@ -9029,6 +9729,16 @@ Prefab:
         type: 2}
       propertyPath: tagList.Array.data[1].eTag
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: Id
+      value: 1436864849
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: SaveToggle
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}

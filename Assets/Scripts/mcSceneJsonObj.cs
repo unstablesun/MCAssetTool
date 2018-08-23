@@ -20,6 +20,7 @@ public class mcSceneJsonObj : MonoBehaviour
 
     public Int32 Id;
 
+    public bool SaveToggle = false;
     public bool IsPrize = false;
     public bool IsSubImage = false;
 
@@ -27,13 +28,17 @@ public class mcSceneJsonObj : MonoBehaviour
     public string ItemDesc = "DescID";
     public string ItemPrice = "1000";
     public int ItemQuantity = 5;
-    public string ItemCreationTime = "2018-07-05"; //ISO 8601
+    public PantryManager.PurchaseCurrency PurchaceCurrency = PantryManager.PurchaseCurrency.coins;
+    public string ItemCreationTime = "2018-07-05"; //ISO 8601 - set from Pantry Menu
 
     public GameObject CenterOffset = null;
     public List<GameObject> extraImageList = null;
 
 	void Start () 
     {
+
+        //ItemCreationTime = System.DateTime.UtcNow.ToString("yyyy-MM-dd");
+
         /* DEBUG
         Image attachedImage = GetComponent<Image>();
 
