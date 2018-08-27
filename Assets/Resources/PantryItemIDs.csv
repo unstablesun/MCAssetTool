@@ -1,5 +1,5 @@
 Name,ID,Date,Price,Currency,Quantity,File
-Candle,-1342792844,2018-07-05,1000,coins,5,accessory_candle_tealight.png
+Candle,-1342792844,2018-07-05,10,diamonds,2,accessory_candle_tealight.png
 Carrots,-1284837190,2018-08-23,1000,coins,5,accessory_carrots.png
 Cutting Board,-1085924213,2018-07-05,1000,coins,5,accessory_cheeseboard.png
 Green Beans,-1085619494,2018-07-05,1000,coins,5,accessory_greenbeans.png
@@ -11,12 +11,12 @@ Place Mat 1,812825459,2018-07-05,1000,coins,5,accessory_placemat_carbonblack.png
 Place Mat Blue,-189184406,2018-07-05,1000,coins,5,accessory_placemat_carbonblue.png
 Place Mat Red,1414122089,2018-07-05,1000,coins,5,accessory_placemat_carbonred.png
 Place Mat White,2199838,2018-07-05,1000,coins,5,accessory_placemat_carbonwhite.png
-Vase Blue,-924201193,2018-07-05,1000,coins,5,accessory_vase_creamer_blue.png
-Vase Red,753106504,2018-07-05,1000,coins,5,accessory_vase_creamer_red.png
-Blue Vase Flowers,1086502585,2018-07-05,1000,coins,5,accessory_vase_lilies_blue.png
-Red Vase Flowers,-1223884735,2018-07-05,1000,coins,5,accessory_vase_lilies_red.png
-Blue Vase Flower,736549592,2018-07-05,1000,coins,5,accessory_vase_lily_blue.png
-Red Vase Flower,-1031433516,2018-07-05,1000,coins,5,accessory_vase_lily_red.png
+Vase Blue,-924201193,2018-07-05,10,diamonds,2,accessory_vase_creamer_blue.png
+Vase Red,753106504,2018-07-05,10,diamonds,1,accessory_vase_creamer_red.png
+Blue Vase Flowers,1086502585,2018-07-05,10,diamonds,3,accessory_vase_lilies_blue.png
+Red Vase Flowers,-1223884735,2018-07-05,10,diamonds,3,accessory_vase_lilies_red.png
+Blue Vase Flower,736549592,2018-07-05,5,diamonds,2,accessory_vase_lily_blue.png
+Red Vase Flower,-1031433516,2018-07-05,10,diamonds,3,accessory_vase_lily_red.png
 Loaf,1943538537,2018-07-05,1000,coins,5,appt_bread.png
 Lemon,-864286618,2018-08-23,1000,coins,5,appt_lemon.png
 Lemon Slice,791800047,2018-07-05,1000,coins,5,appt_lemonslice.png
@@ -56,4 +56,4 @@ Water,-501792614,2018-07-05,1000,coins,5,beverage_water.png
 WaterLemon,-1289269919,2018-07-05,1000,coins,5,beverage_waterlemon.png
 Banana Cream Pie,-1252244632,2018-07-05,1000,coins,5,dessert_pie_lemonmeringue.png
 PumpkinPie,506210419,2018-07-05,1000,coins,5,dessert_pie_pumpkin.png
-Spaghetti,778562650,2018-07-05,1000,diamonds,5,main_pasta_spaghetti.png
+Spaghetti,778562650,2018-07-05,10,diamonds,2,main_pasta_spaghetti.png
