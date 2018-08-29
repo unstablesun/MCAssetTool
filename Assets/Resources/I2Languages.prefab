@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1641074973797218}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1641074973797218
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4064983789468140}
   - component: {fileID: 114819967120458744}
@@ -30,7 +30,7 @@ GameObject:
 --- !u!4 &4064983789468140
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1641074973797218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -43,7 +43,7 @@ Transform:
 --- !u!114 &114819967120458744
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1641074973797218}
   m_Enabled: 1
@@ -63,15 +63,117 @@ MonoBehaviour:
   Google_WebServiceURL: https://script.google.com/a/fuelpowered.com/macros/s/AKfycbxx_WSiMfJFa0Klx0atX2FMKQa-A_Q4KT-GpMcG/exec
   Google_SpreadsheetKey: 1b-QYFdsPfutVWUSNO0dUqaHvxGMZhQdHWpyJz3JXuRc
   Google_SpreadsheetName: I2Loc Master Chef Localization
-  Google_LastUpdatedVersion: 
+  Google_LastUpdatedVersion: 1532040671789
   Google_Password: GrantooMasterChef
   GoogleUpdateFrequency: 3
   GoogleInEditorCheckFrequency: 2
   GoogleUpdateDelay: 5
-  mLanguages: []
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Korean
+    Code: ko
+    Flags: 0
+  - Name: French
+    Code: fr
+    Flags: 0
+  - Name: Spanish
+    Code: es
+    Flags: 0
+  - Name: Italian
+    Code: it
+    Flags: 0
+  - Name: German
+    Code: de
+    Flags: 0
+  - Name: Japanese
+    Code: ja
+    Flags: 0
+  - Name: Chinese (Simplified)
+    Code: zh-CN
+    Flags: 0
+  - Name: Chinese (Traditional)
+    Code: zh-TW
+    Flags: 0
   IgnoreDeviceLanguage: 0
   _AllowUnloadingLanguages: 1
-  mTerms: []
+  mTerms:
+  - Term: T_KEY
+    TermType: 0
+    Description: 
+    Languages:
+    - testkey
+    - korean
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: VOTING_NEXT_UP_TXT
+    TermType: 0
+    Description: 
+    Languages:
+    - UP NEXT IN VOTING
+    - "\uD22C\uD45C\uC5D0\uC11C \uB2E4\uC74C \uBC88\uC5D0"
+    - "La Prochaine \xC0 Voter"
+    - "Hasta El Pr\xF3ximo En Votar"
+    - Il Prossimo A Votare
+    - "Als N\xE4chstes In Der Abstimmung"
+    - "\u6B21\u306E\u6295\u7968\u3067"
+    - "\u5728\u6295\u7968\u4E2D\u63A5\u4E0B\u6765"
+    - "\u5728\u6295\u7968\u4E2D\u63A5\u4E0B\u4F86"
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: STORE_TXT
+    TermType: 0
+    Description: 
+    Languages:
+    - Store
+    - KStore
+    - Le Magasin
+    - Almacenar
+    - Negozio
+    - "Gesch\xE4ft"
+    - "\u683C\u7D0D"
+    - "\u5546\u5E97"
+    - "\u5546\u5E97"
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: VOTING_VOTE
+    TermType: 0
+    Description: 
+    Languages:
+    - Vote
+    - "\uD22C\uD45C"
+    - Vote
+    - Votar
+    - Votazione
+    - Abstimmung
+    - "\u6295\u7968"
+    - "\u6295\u7968"
+    - "\u6295\u7968"
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: GLOBAL_OWNED
+    TermType: 0
+    Description: 
+    Languages:
+    - Owned
+    - KOwned
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
   CaseInsensitiveTerms: 0
   OnMissingTranslation: 1
   mTerm_AppName: 
