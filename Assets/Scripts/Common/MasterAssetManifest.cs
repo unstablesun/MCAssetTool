@@ -108,6 +108,8 @@ public class MasterAssetManifest : MonoBehaviour
 
             CreateManifestData();
         }
+
+        //PlayerPrefs.DeleteAll();
     }
 
 
