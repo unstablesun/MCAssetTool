@@ -129,10 +129,9 @@ public class mcChallengeContainer : MonoBehaviour
                         platingRecord.tagList.Add(st.eTag.ToString());
                     }
 
-
                     platingRecord.isRequired = jsonObj.IsRequired;
                     platingRecord.placementOrder = jsonObj.PlacementOrder;
-
+                    platingRecord.stackGroup = jsonObj.StackGroup;
 
                     challengeEventData.challengeRecord.PlatingList.Add(platingRecord);
                 } 

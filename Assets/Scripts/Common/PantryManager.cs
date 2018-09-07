@@ -44,12 +44,10 @@ namespace MasterChef.data
             public string Tag;
         }
 
-        //secondary image overlays
-        public class ItemImage
+        public class StackObject
         {
-            public string filename;
-            public float offsetX;
-            public float offsetY;
+            public Vector2 StackOffset;
+            public List<ItemTag> StackTagList { get; set; }
         }
 
 
@@ -72,9 +70,8 @@ namespace MasterChef.data
             //describes what this item is - can be found by usubg these tags
             public List<ItemTag> TagList { get; set; }
 
-
-            //deprecated
-            public List<ItemImage> ImageList { get; set; }
+            //describes what can be stacked on this item
+            public List<StackObject> StackObjectList { get; set; }
 
         }
 

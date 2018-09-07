@@ -29,6 +29,7 @@ namespace MasterChef.data
     {
         public bool isRequired;
         public int placementOrder;
+        public int stackGroup;
         public List<string> tagList;
         public Vector2 relativePos;
         public Vector2 pinOffset;

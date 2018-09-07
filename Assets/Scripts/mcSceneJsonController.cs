@@ -61,13 +61,6 @@ public class mcSceneJsonController : MonoBehaviour
                     {
                         PantryManager.ItemRecord pantryItemRecord = new PantryManager.ItemRecord();
 
-                        /*
-                        System.Guid _GUID = System.Guid.NewGuid();
-                        byte[] gb = _GUID.ToByteArray();
-                        Int32 newId = System.BitConverter.ToInt32(gb, 0);
-                        pantryItemRecord.Id = newId;
-                        */
-
                         pantryItemRecord.Id = jsonObj.Id;
                         pantryItemRecord.filename = jsonObj.name;
                         pantryItemRecord.IsPrize = jsonObj.IsPrize.ToString();
@@ -81,13 +74,13 @@ public class mcSceneJsonController : MonoBehaviour
                         Vector2 cp = jsonObj.CenterOffset.transform.localPosition;
                         pantryItemRecord.CenterOffset = new Vector2(cp.x, cp.y);
 
-                        pantryItemRecord.Flags = 0;
+                        Vector2 sp1 = jsonObj.StackOffset1.transform.localPosition;
+                        Vector2 sp2 = jsonObj.StackOffset2.transform.localPosition;
+                        Vector2 sp3 = jsonObj.StackOffset3.transform.localPosition;
+                        Vector2 sp4 = jsonObj.StackOffset4.transform.localPosition;
  
-                        //Debug.Log("filename = " + jsonObj.name);
-
+                        //Main tag for this item
                         pantryItemRecord.TagList = new List<PantryManager.ItemTag>();
-
-                        //get enum tags and search for 
                         foreach (mcSearchTags mcSTag in jsonObj.tagList)
                         {
                             PantryManager.ItemTag pantryTagItem = new PantryManager.ItemTag();
@@ -96,6 +89,92 @@ public class mcSceneJsonController : MonoBehaviour
                             pantryTagItem.Tag = tagStr;
                             pantryItemRecord.TagList.Add(pantryTagItem);
                         }
+
+                        //init stack list for all stackables
+                        pantryItemRecord.StackObjectList = new List<PantryManager.StackObject>();
+
+
+                        //Stack 1
+                        if(jsonObj.stackTagList1.Count > 0)
+                        {
+                            PantryManager.StackObject sObj = new PantryManager.StackObject();
+                            sObj.StackTagList = new List<PantryManager.ItemTag>();
+                            sObj.StackOffset = sp1;
+
+                            foreach (mcSearchTags mcStackTag in jsonObj.stackTagList1)
+                            {
+                                PantryManager.ItemTag pantryTagItem = new PantryManager.ItemTag();
+
+                                string tagStr = mcStackTag.eTag.ToString();
+                                pantryTagItem.Tag = tagStr;
+                                sObj.StackTagList.Add(pantryTagItem);
+                            }
+
+                            pantryItemRecord.StackObjectList.Add(sObj);
+                        }
+
+
+                        //Stack 2
+                        if (jsonObj.stackTagList2.Count > 0)
+                        {
+                            PantryManager.StackObject sObj = new PantryManager.StackObject();
+                            sObj.StackTagList = new List<PantryManager.ItemTag>();
+                            sObj.StackOffset = sp2;
+
+                            foreach (mcSearchTags mcStackTag in jsonObj.stackTagList2)
+                            {
+                                PantryManager.ItemTag pantryTagItem = new PantryManager.ItemTag();
+
+                                string tagStr = mcStackTag.eTag.ToString();
+                                pantryTagItem.Tag = tagStr;
+                                sObj.StackTagList.Add(pantryTagItem);
+                            }
+
+                            pantryItemRecord.StackObjectList.Add(sObj);
+                        }
+
+
+                        //Stack 3
+                        if (jsonObj.stackTagList3.Count > 0)
+                        {
+                            PantryManager.StackObject sObj = new PantryManager.StackObject();
+                            sObj.StackTagList = new List<PantryManager.ItemTag>();
+                            sObj.StackOffset = sp3;
+
+                            foreach (mcSearchTags mcStackTag in jsonObj.stackTagList3)
+                            {
+                                PantryManager.ItemTag pantryTagItem = new PantryManager.ItemTag();
+
+                                string tagStr = mcStackTag.eTag.ToString();
+                                pantryTagItem.Tag = tagStr;
+                                sObj.StackTagList.Add(pantryTagItem);
+                            }
+
+                            pantryItemRecord.StackObjectList.Add(sObj);
+                        }
+
+
+                        //Stack 4
+                        if (jsonObj.stackTagList4.Count > 0)
+                        {
+                            PantryManager.StackObject sObj = new PantryManager.StackObject();
+                            sObj.StackTagList = new List<PantryManager.ItemTag>();
+                            sObj.StackOffset = sp4;
+
+                            foreach (mcSearchTags mcStackTag in jsonObj.stackTagList4)
+                            {
+                                PantryManager.ItemTag pantryTagItem = new PantryManager.ItemTag();
+
+                                string tagStr = mcStackTag.eTag.ToString();
+                                pantryTagItem.Tag = tagStr;
+                                sObj.StackTagList.Add(pantryTagItem);
+                            }
+
+                            pantryItemRecord.StackObjectList.Add(sObj);
+                        }
+
+
+                        pantryItemRecord.Flags = 0;
 
                         pantryItemData.ItemList.Add(pantryItemRecord);
                     }
@@ -106,7 +185,6 @@ public class mcSceneJsonController : MonoBehaviour
         SaveMasterList();
 
         WritePantryItemIDs();
-
 
     }
 

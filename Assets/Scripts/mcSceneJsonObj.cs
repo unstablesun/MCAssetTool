@@ -16,6 +16,7 @@ public class mcSceneJsonObj : MonoBehaviour
 {
     public bool IncludeInExport = true;
 
+    //Which tags this object can be
     public List<mcSearchTags> tagList = new List<mcSearchTags>();
 
     public Int32 Id;
@@ -23,7 +24,7 @@ public class mcSceneJsonObj : MonoBehaviour
     public bool SaveToggle = false;
     public bool IsPrize = false;
     public bool IsSubImage = false;
-
+ 
     public string ItemName = "NameID";
     public string ItemDesc = "DescID";
     public string ItemPrice = "1000";
@@ -32,9 +33,22 @@ public class mcSceneJsonObj : MonoBehaviour
     public string ItemCreationTime = "2018-07-05"; //ISO 8601 - set from Pantry Menu
 
     public GameObject CenterOffset = null;
-    public List<GameObject> extraImageList = null;
 
-	void Start () 
+
+
+
+    public GameObject StackOffset1 = null;
+    public GameObject StackOffset2 = null;
+    public GameObject StackOffset3 = null;
+    public GameObject StackOffset4 = null;
+
+    public List<mcSearchTags> stackTagList1 = new List<mcSearchTags>();
+    public List<mcSearchTags> stackTagList2 = new List<mcSearchTags>();
+    public List<mcSearchTags> stackTagList3 = new List<mcSearchTags>();
+    public List<mcSearchTags> stackTagList4 = new List<mcSearchTags>();
+
+
+    void Start () 
     {
 
         //ItemCreationTime = System.DateTime.UtcNow.ToString("yyyy-MM-dd");
