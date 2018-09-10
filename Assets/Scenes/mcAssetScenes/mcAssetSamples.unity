@@ -5670,6 +5670,13 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
+    - {fileID: 1462409112}
+    ActiveGameObject: {fileID: 1462409112}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 760715286}
     ActiveGameObject: {fileID: 760715286}
     GUIDsList: []
@@ -5700,13 +5707,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1234074328}
     ActiveGameObject: {fileID: 1234074328}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1462409112}
-    ActiveGameObject: {fileID: 1462409112}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -7677,12 +7677,12 @@ Prefab:
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
       propertyPath: tagList.Array.data[0].eTag
-      value: 25
+      value: 9000
       objectReference: {fileID: 0}
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
       propertyPath: tagList.Array.data[1].eTag
-      value: 27
+      value: 9200
       objectReference: {fileID: 0}
     - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
         type: 2}
