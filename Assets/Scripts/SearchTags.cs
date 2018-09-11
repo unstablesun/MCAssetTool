@@ -25,6 +25,15 @@ using System;
 
 public partial class SearchTags : MonoBehaviour
 {
+    public string TagItem;
+
+    public int experience;
+
+    public int Level
+    {
+        get { return experience / 750; }
+    }
+
 
     public class SearchTagRecord
     {
