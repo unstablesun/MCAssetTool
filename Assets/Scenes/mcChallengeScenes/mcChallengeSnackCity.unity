@@ -1647,6 +1647,13 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
+    - {fileID: 1242054685}
+    ActiveGameObject: {fileID: 1242054685}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
     - {fileID: 1060654647}
     ActiveGameObject: {fileID: 1060654647}
     GUIDsList: []
@@ -1661,8 +1668,8 @@ MonoBehaviour:
     wasInit: 0
     CashedBool: 0
   - list:
-    - {fileID: 1242054685}
-    ActiveGameObject: {fileID: 1242054685}
+    - {fileID: 1900070955}
+    ActiveGameObject: {fileID: 1900070955}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -1670,13 +1677,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1060654646}
     ActiveGameObject: {fileID: 1060654646}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1900070955}
-    ActiveGameObject: {fileID: 1900070955}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -2123,7 +2123,7 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -340
+      value: -568
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -3085,12 +3085,12 @@ Prefab:
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 433
+      value: 551
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -158
+      value: -82
       objectReference: {fileID: 0}
     - target: {fileID: 224827786684552624, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
@@ -3139,7 +3139,7 @@ Prefab:
     - target: {fileID: 114667186924180980, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}
       propertyPath: tagList.Array.data[0].eTag
-      value: 9300
+      value: 9000
       objectReference: {fileID: 0}
     - target: {fileID: 114803046982743354, guid: 2b941807bc77c4801bae3146a17e0a26,
         type: 2}

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 844827414
+CRC: 1553683932
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a3c54e0817502618d80b751c58f405a4
+    Hash: cad49771f30660a1e69f0f5778688497
   TypeTreeHash:
     serializedVersion: 2
     Hash: ea5a42e0fd8ea905efa7aa926a3b8944
@@ -14,10 +14,5 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- Assets/Resources/PlatingTables/scene_bg_table_dark.jpg
-- Assets/Resources/PlatingTables/scene_bg_table_chroma.jpg
-- Assets/Resources/PlatingTables/scene_bg_table_wood.jpg
-- Assets/Resources/PlatingTables/scene_bg_table.jpg
-- Assets/Resources/PlatingTables/scene_bg_table_water.jpg
-- Assets/Resources/PlatingTables/scene_bg_table_old.jpg
+- Assets/Resources/PlatingTables/mc_bg_scene_mysterychallenge.png
 Dependencies: []

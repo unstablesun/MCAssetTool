@@ -62,6 +62,7 @@ public class mcSceneJsonController : MonoBehaviour
                         PantryManager.ItemRecord pantryItemRecord = new PantryManager.ItemRecord();
 
                         pantryItemRecord.Id = jsonObj.Id;
+                        pantryItemRecord.IsPrize = "False";
                         pantryItemRecord.filename = jsonObj.name;
                         pantryItemRecord.NameLabel = jsonObj.ItemName;
                         pantryItemRecord.PriceLabel = jsonObj.ItemPrice;
