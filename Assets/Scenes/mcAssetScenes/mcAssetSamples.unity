@@ -1139,11 +1139,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 302700830}
---- !u!1 &337369468 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1688140097871622, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1909230974}
 --- !u!1001 &342966748
 Prefab:
   m_ObjectHideFlags: 0
@@ -3999,11 +3994,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 744649336}
---- !u!1 &744649338 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1563417020440858, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 744649336}
 --- !u!1001 &760715284
 Prefab:
   m_ObjectHideFlags: 0
@@ -4200,6 +4190,11 @@ Prefab:
         type: 2}
       propertyPath: stackTagList3.Array.data[0].eTag
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 114116497841822652, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
+        type: 2}
+      propertyPath: ItemCreationTime
+      value: 2018-09-12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55ad4a0b5d94a44528cca0f2e3d5d387, type: 2}
@@ -5670,8 +5665,15 @@ MonoBehaviour:
   Hash2: []
   Hash3:
   - list:
-    - {fileID: 1462409112}
-    ActiveGameObject: {fileID: 1462409112}
+    - {fileID: 1039984546}
+    ActiveGameObject: {fileID: 1039984546}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1909230978}
+    ActiveGameObject: {fileID: 1909230978}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -5679,6 +5681,34 @@ MonoBehaviour:
   - list:
     - {fileID: 760715286}
     ActiveGameObject: {fileID: 760715286}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 364025328}
+    ActiveGameObject: {fileID: 364025328}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1009977074}
+    ActiveGameObject: {fileID: 1009977074}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 2108616099}
+    ActiveGameObject: {fileID: 2108616099}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    wasInit: 0
+    CashedBool: 0
+  - list:
+    - {fileID: 1462409112}
+    ActiveGameObject: {fileID: 1462409112}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -5693,13 +5723,6 @@ MonoBehaviour:
   - list:
     - {fileID: 386419860}
     ActiveGameObject: {fileID: 386419860}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1909230978}
-    ActiveGameObject: {fileID: 1909230978}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -5807,34 +5830,6 @@ MonoBehaviour:
   - list:
     - {fileID: 1234074329}
     ActiveGameObject: {fileID: 1234074329}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1234074327}
-    ActiveGameObject: {fileID: 1234074327}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 744649338}
-    ActiveGameObject: {fileID: 744649338}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 1113843441}
-    ActiveGameObject: {fileID: 1113843441}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    wasInit: 0
-    CashedBool: 0
-  - list:
-    - {fileID: 337369468}
-    ActiveGameObject: {fileID: 337369468}
     GUIDsList: []
     GUIDsActiveGameObject: 
     wasInit: 0
@@ -6147,11 +6142,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1110198367}
---- !u!1 &1113843441 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1605043516184680, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1909230974}
 --- !u!1001 &1121668958
 Prefab:
   m_ObjectHideFlags: 0
@@ -6580,11 +6570,6 @@ Prefab:
 --- !u!224 &1234074325 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224720734680021714, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
-    type: 2}
-  m_PrefabInternal: {fileID: 1234074324}
---- !u!1 &1234074327 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1664944068209376, guid: 55ad4a0b5d94a44528cca0f2e3d5d387,
     type: 2}
   m_PrefabInternal: {fileID: 1234074324}
 --- !u!1 &1234074328 stripped

@@ -16,14 +16,10 @@ public class mcSceneJsonObj : MonoBehaviour
 {
     public bool IncludeInExport = true;
 
-    //Which tags this object can be
-    public List<mcSearchTags> tagList = new List<mcSearchTags>();
 
     public Int32 Id;
 
     public bool SaveToggle = false;
-    public bool IsPrize = false;
-    public bool IsSubImage = false;
  
     public string ItemName = "NameID";
     public string ItemDesc = "DescID";
@@ -35,6 +31,8 @@ public class mcSceneJsonObj : MonoBehaviour
     public GameObject CenterOffset = null;
 
 
+    //Which tags this object can be
+    public List<mcSearchTags> tagList = new List<mcSearchTags>();
 
 
     public GameObject StackOffset1 = null;

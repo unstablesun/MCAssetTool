@@ -132,7 +132,7 @@ public class ManifestManager : MonoBehaviour
 
             System.Guid _GUID = System.Guid.NewGuid();
             byte[] gb = _GUID.ToByteArray();
-            Int32 newId = System.BitConverter.ToInt32(gb, 0);
+            Int32 newId = System.BitConverter.ToInt32(gb, 0) & 0x7fffffff;
 
             mcSceneJsonObj script = child.GetComponent<mcSceneJsonObj>();
 
@@ -181,7 +181,7 @@ public class ManifestManager : MonoBehaviour
 
         System.Guid _GUID = System.Guid.NewGuid();
         byte[] gb = _GUID.ToByteArray();
-        Int32 newId = System.BitConverter.ToInt32(gb, 0);
+        Int32 newId = System.BitConverter.ToInt32(gb, 0) & 0x7fffffff;
 
         script.Id = newId;
     }

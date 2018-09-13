@@ -13,11 +13,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pluginID: 0
   last_scenesV2:
+  - guid: 57ed6e657d2b046e8b6dc4f402202477
+    pin: 0
+  - guid: d4e585c4dd5064b38a8c9ef4a22fb029
+    pin: 0
+  - guid: c65739428bddc4b6699807b7d526b1b4
+    pin: 0
+  - guid: 9b9127d7c6f4b460cb28c66778ae7483
+    pin: 0
+  - guid: 7892658e98d0e4015a48d972688b6244
+    pin: 0
+  - guid: b3c0473761f204620810eb8e4ae1f76a
+    pin: 0
+  - guid: 2cda990e2423bbf4892e6590ba056729
+    pin: 0
   - guid: dafc841a21ed846c789a79a968c37954
     pin: 0
-  - guid: c3142827a52b5445d916a26b716b6f07
+  - guid: 313639901a52d45bbb4ebd25b2b56175
     pin: 0
-  - guid: 57ed6e657d2b046e8b6dc4f402202477
+  - guid: c3142827a52b5445d916a26b716b6f07
     pin: 0
   - guid: 79f5f708694014336a9c543086d9517d
     pin: 0
@@ -29,8 +43,6 @@ MonoBehaviour:
     pin: 0
   - guid: 8b9291090c98046feb93297e0aec4c0a
     pin: 0
-  - guid: 9b9127d7c6f4b460cb28c66778ae7483
-    pin: 0
   - guid: 6ed66f0629e6f41deb258756f3d34073
     pin: 0
   - guid: 08727cc03c5eb4045aa0e5b5a9167b65
@@ -41,16 +53,6 @@ MonoBehaviour:
     pin: 0
   - guid: dfd32f6082b444122ba738fbc09ac055
     pin: 0
-  - guid: 7892658e98d0e4015a48d972688b6244
-    pin: 0
-  - guid: b3c0473761f204620810eb8e4ae1f76a
-    pin: 0
-  - guid: 2cda990e2423bbf4892e6590ba056729
-    pin: 0
-  - guid: 313639901a52d45bbb4ebd25b2b56175
-    pin: 0
-  - guid: c65739428bddc4b6699807b7d526b1b4
-    pin: 0
   - guid: a0e9763785724fa8958b272e72b0f172
     pin: 0
   - guid: c4f4c9437a6158a4c8ca2887a5a7569c
@@ -58,8 +60,6 @@ MonoBehaviour:
   - guid: c3701a538cfcaf841b12ea2dc520f3e3
     pin: 0
   - guid: a068c62a78a7b104b9c3099648be7afb
-    pin: 0
-  - guid: 478a41911737e714ca48071cb930cb8b
     pin: 0
   last_scenes: []
   m_hiddenComponents: []

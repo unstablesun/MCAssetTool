@@ -63,7 +63,6 @@ public class mcSceneJsonController : MonoBehaviour
 
                         pantryItemRecord.Id = jsonObj.Id;
                         pantryItemRecord.filename = jsonObj.name;
-                        pantryItemRecord.IsPrize = jsonObj.IsPrize.ToString();
                         pantryItemRecord.NameLabel = jsonObj.ItemName;
                         pantryItemRecord.PriceLabel = jsonObj.ItemPrice;
                         pantryItemRecord.DescLabel = jsonObj.ItemDesc;
